@@ -1,0 +1,26 @@
+name: 数据纠错
+description: 使用学院官网证据报告字段变化或解析错误
+title: "[数据纠错] "
+labels: ["data-correction"]
+body:
+  - type: markdown
+    attributes:
+      value: 请勿在公开 Issue 中提交私人联系方式或其他敏感信息。
+  - type: input
+    id: faculty
+    attributes:
+      label: 教师姓名或 ID
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: 学院官网证据 URL
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 需要修正的内容
+    validations:
+      required: true

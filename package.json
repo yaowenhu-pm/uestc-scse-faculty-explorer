@@ -1,0 +1,16 @@
+{
+  "name": "uestc-scse-faculty-explorer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "data": "node scripts/build-public-data.mjs",
+    "validate": "node scripts/validate-public-data.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run data && npm run validate && npm test",
+    "serve": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
