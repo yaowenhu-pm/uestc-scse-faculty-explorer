@@ -1,0 +1,1652 @@
+{
+  "title": "CCF官方分类页可核验A类场所补充对照",
+  "verified_on": "2026-09-21",
+  "research_snapshot_cutoff": "2026-09-01",
+  "scope": "逐项转录十个CCF官方分类页A类表，并与review-guide.md原始26项固定场所比较；不修改教师分档。",
+  "completeness": {
+    "official_category_pages": 10,
+    "category_page_a_records": 93,
+    "additional_records": 69,
+    "already_in_original_fixed_list": 24,
+    "seventh_edition_completeness_verified": false
+  },
+  "version_caveat": "本次可核验的是CCF官方分类页搜索索引正文。官网2026-03-31已发布第七版、4月9日勘误，但分类页未声明版次，且不能确认各页与该PDF同步；不能称此文件为第七版完整名单。原固定名单中的ICLR/ECCV继续按原规则，不因未出现在本次分类页A表而删除。",
+  "latest_release": {
+    "official_url": "https://www.ccf.org.cn/Academic_Evaluation/By_category/",
+    "title": "第七版《中国计算机学会推荐国际学术会议和期刊目录》正式发布",
+    "published_on": "2026-03-31",
+    "erratum_on": "2026-04-09",
+    "retrieval_method": "official search index",
+    "pdf_downloaded": false
+  },
+  "usage_limits": [
+    "仅作为统一识别发表场所的分类参考；不宣称CCF支持对教师打分或排序，也不把场所类别等同论文质量。",
+    "论文仍须题名可识别、本人第一/通讯作者明确，才满足outputs3；三篇须是不同具体作品。",
+    "CCF第七版发布说明限Full paper或Regular paper；Short、Demo、Technical Brief、Summary、Findings及Workshop不在该会议目录考虑范围内。",
+    "别名仅用于人工定位，不能把相似字符串直接匹配成A类；最终须核对完整场所名和论文类型。",
+    "FSE须区分软件工程会议与Fast Software Encryption；CSCW须区分会议与同名期刊；TOC不能直接当TC，以免误认IEEE Transactions on Cybernetics。",
+    "UbiComp/IMWUT同一正式作品不得按会议和期刊重复计数；PVLDB与VLDB对应关系须逐条确认，本文件未擅自增加PVLDB别名。",
+    "T1/T2/T3中文及中国科技期刊目录与ABC目录为独立列表，不做等效替换。"
+  ],
+  "sources": [
+    {
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "retrieval_method": "web search indexed content from official CCF category page",
+      "version": "分类页未明示版次，不能证明已同步第七版",
+      "verified_on": "2026-09-21"
+    },
+    {
+      "category": "计算机网络",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/CN/",
+      "retrieval_method": "web search indexed content from official CCF category page",
+      "version": "分类页未明示版次，不能证明已同步第七版",
+      "verified_on": "2026-09-21"
+    },
+    {
+      "category": "网络与信息安全",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "retrieval_method": "web search indexed content from official CCF category page",
+      "version": "分类页未明示版次，不能证明已同步第七版",
+      "verified_on": "2026-09-21"
+    },
+    {
+      "category": "软件工程/系统软件/程序设计语言",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/",
+      "retrieval_method": "web search indexed content from official CCF category page",
+      "version": "分类页未明示版次，不能证明已同步第七版",
+      "verified_on": "2026-09-21"
+    },
+    {
+      "category": "数据库/数据挖掘/内容检索",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/DM_CS/",
+      "retrieval_method": "web search indexed content from official CCF category page",
+      "version": "分类页未明示版次，不能证明已同步第七版",
+      "verified_on": "2026-09-21"
+    },
+    {
+      "category": "计算机科学理论",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCS/",
+      "retrieval_method": "web search indexed content from official CCF category page",
+      "version": "分类页未明示版次，不能证明已同步第七版",
+      "verified_on": "2026-09-21"
+    },
+    {
+      "category": "计算机图形学与多媒体",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/CGAndMT/",
+      "retrieval_method": "web search indexed content from official CCF category page",
+      "version": "分类页未明示版次，不能证明已同步第七版",
+      "verified_on": "2026-09-21"
+    },
+    {
+      "category": "人工智能",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/AI/",
+      "retrieval_method": "web search indexed content from official CCF category page",
+      "version": "分类页未明示版次，不能证明已同步第七版",
+      "verified_on": "2026-09-21"
+    },
+    {
+      "category": "人机交互与普适计算",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/HCIAndPC/",
+      "retrieval_method": "web search indexed content from official CCF category page",
+      "version": "分类页未明示版次，不能证明已同步第七版",
+      "verified_on": "2026-09-21"
+    },
+    {
+      "category": "交叉/综合/新兴",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/Cross_Compre_Emerging/",
+      "retrieval_method": "web search indexed content from official CCF category page",
+      "version": "分类页未明示版次，不能证明已同步第七版",
+      "verified_on": "2026-09-21"
+    }
+  ],
+  "venues": [
+    {
+      "abbreviation": "TOCS",
+      "full_name": "ACM Transactions on Computer Systems",
+      "type": "journal",
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 1,
+        "record": {
+          "abbreviation": "TOCS",
+          "full_name": "ACM Transactions on Computer Systems"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "TOS",
+      "full_name": "ACM Transactions on Storage",
+      "type": "journal",
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "TOS",
+          "full_name": "ACM Transactions on Storage"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "TCAD",
+      "full_name": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+      "type": "journal",
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 3,
+        "record": {
+          "abbreviation": "TCAD",
+          "full_name": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "TC",
+      "full_name": "IEEE Transactions on Computers",
+      "type": "journal",
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 4,
+        "record": {
+          "abbreviation": "TC",
+          "full_name": "IEEE Transactions on Computers"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "IEEE Trans. on Computers"
+      ]
+    },
+    {
+      "abbreviation": "TPDS",
+      "full_name": "IEEE Transactions on Parallel and Distributed Systems",
+      "type": "journal",
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 5,
+        "record": {
+          "abbreviation": "TPDS",
+          "full_name": "IEEE Transactions on Parallel and Distributed Systems"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "IEEE Trans. Parallel and Distributed Systems"
+      ]
+    },
+    {
+      "abbreviation": "TACO",
+      "full_name": "ACM Transactions on Architecture and Code Optimization",
+      "type": "journal",
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 6,
+        "record": {
+          "abbreviation": "TACO",
+          "full_name": "ACM Transactions on Architecture and Code Optimization"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "PPoPP",
+      "full_name": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+      "type": "conference",
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 1,
+        "record": {
+          "abbreviation": "PPoPP",
+          "full_name": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "PPoPP"
+      ]
+    },
+    {
+      "abbreviation": "FAST",
+      "full_name": "USENIX Conference on File and Storage Technologies",
+      "type": "conference",
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "FAST",
+          "full_name": "USENIX Conference on File and Storage Technologies"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "DAC",
+      "full_name": "Design Automation Conference",
+      "type": "conference",
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 3,
+        "record": {
+          "abbreviation": "DAC",
+          "full_name": "Design Automation Conference"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "HPCA",
+      "full_name": "IEEE International Symposium on High Performance Computer Architecture",
+      "type": "conference",
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 4,
+        "record": {
+          "abbreviation": "HPCA",
+          "full_name": "IEEE International Symposium on High Performance Computer Architecture"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "MICRO",
+      "full_name": "IEEE/ACM International Symposium on Microarchitecture",
+      "type": "conference",
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 5,
+        "record": {
+          "abbreviation": "MICRO",
+          "full_name": "IEEE/ACM International Symposium on Microarchitecture"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "SC",
+      "full_name": "International Conference for High Performance Computing, Networking, Storage, and Analysis",
+      "type": "conference",
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 6,
+        "record": {
+          "abbreviation": "SC",
+          "full_name": "International Conference for High Performance Computing, Networking, Storage, and Analysis"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "ASPLOS",
+      "full_name": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+      "type": "conference",
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 7,
+        "record": {
+          "abbreviation": "ASPLOS",
+          "full_name": "International Conference on Architectural Support for Programming Languages and Operating Systems"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "ISCA",
+      "full_name": "International Symposium on Computer Architecture",
+      "type": "conference",
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 8,
+        "record": {
+          "abbreviation": "ISCA",
+          "full_name": "International Symposium on Computer Architecture"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "USENIX ATC",
+      "full_name": "USENIX Annual Technical Conference",
+      "type": "conference",
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 9,
+        "record": {
+          "abbreviation": "USENIX ATC",
+          "full_name": "USENIX Annual Technical Conference"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "ATC"
+      ]
+    },
+    {
+      "abbreviation": "EuroSys",
+      "full_name": "European Conference on Computer Systems",
+      "type": "conference",
+      "category": "计算机体系结构/并行与分布计算/存储系统",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 10,
+        "record": {
+          "abbreviation": "EuroSys",
+          "full_name": "European Conference on Computer Systems"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "ACM EuroSys",
+        "Eurosys"
+      ]
+    },
+    {
+      "abbreviation": "JSAC",
+      "full_name": "IEEE Journal on Selected Areas in Communications",
+      "type": "journal",
+      "category": "计算机网络",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/CN/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 1,
+        "record": {
+          "abbreviation": "JSAC",
+          "full_name": "IEEE Journal on Selected Areas in Communications"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "TMC",
+      "full_name": "IEEE Transactions on Mobile Computing",
+      "type": "journal",
+      "category": "计算机网络",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/CN/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "TMC",
+          "full_name": "IEEE Transactions on Mobile Computing"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "IEEE Trans. on Mobile Computing"
+      ]
+    },
+    {
+      "abbreviation": "TON",
+      "full_name": "IEEE/ACM Transactions on Networking",
+      "type": "journal",
+      "category": "计算机网络",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/CN/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 3,
+        "record": {
+          "abbreviation": "TON",
+          "full_name": "IEEE/ACM Transactions on Networking"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "MobiCom",
+      "full_name": "ACM International Conference on Mobile Computing and Networking",
+      "type": "conference",
+      "category": "计算机网络",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/CN/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "MobiCom",
+          "full_name": "ACM International Conference on Mobile Computing and Networking"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "NSDI",
+      "full_name": "Symposium on Network System Design and Implementation",
+      "type": "conference",
+      "category": "计算机网络",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/CN/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 4,
+        "record": {
+          "abbreviation": "NSDI",
+          "full_name": "Symposium on Network System Design and Implementation"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "TDSC",
+      "full_name": "IEEE Transactions on Dependable and Secure Computing",
+      "type": "journal",
+      "category": "网络与信息安全",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 1,
+        "record": {
+          "abbreviation": "TDSC",
+          "full_name": "IEEE Transactions on Dependable and Secure Computing"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "IEEE Trans. Dependable and Secure Computing"
+      ]
+    },
+    {
+      "abbreviation": "TIFS",
+      "full_name": "IEEE Transactions on Information Forensics and Security",
+      "type": "journal",
+      "category": "网络与信息安全",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "TIFS",
+          "full_name": "IEEE Transactions on Information Forensics and Security"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "IEEE Transactions on Information Forensics & Security"
+      ]
+    },
+    {
+      "abbreviation": "Journal of Cryptology",
+      "full_name": "Journal of Cryptology",
+      "type": "journal",
+      "category": "网络与信息安全",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 3,
+        "record": {
+          "abbreviation": "Journal of Cryptology",
+          "full_name": "Journal of Cryptology"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [],
+      "abbreviation_note": "官方该行未给简称，此处以全称作为唯一键。"
+    },
+    {
+      "abbreviation": "EUROCRYPT",
+      "full_name": "International Conference on the Theory and Applications of Cryptographic Techniques",
+      "type": "conference",
+      "category": "网络与信息安全",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "EUROCRYPT",
+          "full_name": "International Conference on the Theory and Applications of Cryptographic Techniques"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "CRYPTO",
+      "full_name": "International Cryptology Conference",
+      "type": "conference",
+      "category": "网络与信息安全",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 4,
+        "record": {
+          "abbreviation": "CRYPTO",
+          "full_name": "International Cryptology Conference"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "TOPLAS",
+      "full_name": "ACM Transactions on Programming Languages and Systems",
+      "type": "journal",
+      "category": "软件工程/系统软件/程序设计语言",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 1,
+        "record": {
+          "abbreviation": "TOPLAS",
+          "full_name": "ACM Transactions on Programming Languages and Systems"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "TOSEM",
+      "full_name": "ACM Transactions on Software Engineering and Methodology",
+      "type": "journal",
+      "category": "软件工程/系统软件/程序设计语言",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "TOSEM",
+          "full_name": "ACM Transactions on Software Engineering and Methodology"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "ACM Trans. Software Engineering and Methodology"
+      ]
+    },
+    {
+      "abbreviation": "TSE",
+      "full_name": "IEEE Transactions on Software Engineering",
+      "type": "journal",
+      "category": "软件工程/系统软件/程序设计语言",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 3,
+        "record": {
+          "abbreviation": "TSE",
+          "full_name": "IEEE Transactions on Software Engineering"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "IEEE Trans. Software Engineering"
+      ]
+    },
+    {
+      "abbreviation": "TSC",
+      "full_name": "IEEE Transactions on Services Computing",
+      "type": "journal",
+      "category": "软件工程/系统软件/程序设计语言",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 4,
+        "record": {
+          "abbreviation": "TSC",
+          "full_name": "IEEE Transactions on Services Computing"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "PLDI",
+      "full_name": "ACM SIGPLAN Conference on Programming Language Design and Implementation",
+      "type": "conference",
+      "category": "软件工程/系统软件/程序设计语言",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 1,
+        "record": {
+          "abbreviation": "PLDI",
+          "full_name": "ACM SIGPLAN Conference on Programming Language Design and Implementation"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "POPL",
+      "full_name": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages",
+      "type": "conference",
+      "category": "软件工程/系统软件/程序设计语言",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "POPL",
+          "full_name": "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "FSE",
+      "full_name": "ACM International Conference on the Foundations of Software Engineering",
+      "type": "conference",
+      "category": "软件工程/系统软件/程序设计语言",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 3,
+        "record": {
+          "abbreviation": "FSE",
+          "full_name": "ACM International Conference on the Foundations of Software Engineering"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "ESEC/FSE"
+      ]
+    },
+    {
+      "abbreviation": "OOPSLA",
+      "full_name": "Conference on Object-Oriented Programming Systems, Languages,and Applications",
+      "type": "conference",
+      "category": "软件工程/系统软件/程序设计语言",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 5,
+        "record": {
+          "abbreviation": "OOPSLA",
+          "full_name": "Conference on Object-Oriented Programming Systems, Languages,and Applications"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "ASE",
+      "full_name": "International Conference on Automated Software Engineering",
+      "type": "conference",
+      "category": "软件工程/系统软件/程序设计语言",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 6,
+        "record": {
+          "abbreviation": "ASE",
+          "full_name": "International Conference on Automated Software Engineering"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "ISSTA",
+      "full_name": "International Symposium on Software Testing and Analysis",
+      "type": "conference",
+      "category": "软件工程/系统软件/程序设计语言",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 8,
+        "record": {
+          "abbreviation": "ISSTA",
+          "full_name": "International Symposium on Software Testing and Analysis"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "FM",
+      "full_name": "International Symposium on Formal Methods",
+      "type": "conference",
+      "category": "软件工程/系统软件/程序设计语言",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 10,
+        "record": {
+          "abbreviation": "FM",
+          "full_name": "International Symposium on Formal Methods"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "TODS",
+      "full_name": "ACM Transactions on Database Systems",
+      "type": "journal",
+      "category": "数据库/数据挖掘/内容检索",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/DM_CS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 1,
+        "record": {
+          "abbreviation": "TODS",
+          "full_name": "ACM Transactions on Database Systems"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "TOIS",
+      "full_name": "ACM Transactions on Information Systems",
+      "type": "journal",
+      "category": "数据库/数据挖掘/内容检索",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/DM_CS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "TOIS",
+          "full_name": "ACM Transactions on Information Systems"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "TKDE",
+      "full_name": "IEEE Transactions on Knowledge and Data Engineering",
+      "type": "journal",
+      "category": "数据库/数据挖掘/内容检索",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/DM_CS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 3,
+        "record": {
+          "abbreviation": "TKDE",
+          "full_name": "IEEE Transactions on Knowledge and Data Engineering"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "IEEE Trans. Knowl. Data Eng."
+      ]
+    },
+    {
+      "abbreviation": "VLDBJ",
+      "full_name": "The VLDB Journal",
+      "type": "journal",
+      "category": "数据库/数据挖掘/内容检索",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/DM_CS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 4,
+        "record": {
+          "abbreviation": "VLDBJ",
+          "full_name": "The VLDB Journal"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "VLDB Journal",
+        "VLDB J."
+      ]
+    },
+    {
+      "abbreviation": "ICDE",
+      "full_name": "IEEE International Conference on Data Engineering",
+      "type": "conference",
+      "category": "数据库/数据挖掘/内容检索",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/DM_CS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 3,
+        "record": {
+          "abbreviation": "ICDE",
+          "full_name": "IEEE International Conference on Data Engineering"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "VLDB",
+      "full_name": "International Conference on Very Large Data Bases",
+      "type": "conference",
+      "category": "数据库/数据挖掘/内容检索",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/DM_CS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 5,
+        "record": {
+          "abbreviation": "VLDB",
+          "full_name": "International Conference on Very Large Data Bases"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "TIT",
+      "full_name": "IEEE Transactions on Information Theory",
+      "type": "journal",
+      "category": "计算机科学理论",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 1,
+        "record": {
+          "abbreviation": "TIT",
+          "full_name": "IEEE Transactions on Information Theory"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "IANDC",
+      "full_name": "Information and Computation",
+      "type": "journal",
+      "category": "计算机科学理论",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "IANDC",
+          "full_name": "Information and Computation"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "Inf. Comput.",
+        "Information & Computation"
+      ]
+    },
+    {
+      "abbreviation": "SODA",
+      "full_name": "ACM-SIAM Symposium on Discrete Algorithms",
+      "type": "conference",
+      "category": "计算机科学理论",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "SODA",
+          "full_name": "ACM-SIAM Symposium on Discrete Algorithms"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "CAV",
+      "full_name": "International Conference on Computer Aided Verification",
+      "type": "conference",
+      "category": "计算机科学理论",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 3,
+        "record": {
+          "abbreviation": "CAV",
+          "full_name": "International Conference on Computer Aided Verification"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "LICS",
+      "full_name": "ACM/IEEE Symposium on Logic in Computer Science",
+      "type": "conference",
+      "category": "计算机科学理论",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCS/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 5,
+        "record": {
+          "abbreviation": "LICS",
+          "full_name": "ACM/IEEE Symposium on Logic in Computer Science"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "TOG",
+      "full_name": "ACM Transactions on Graphics",
+      "type": "journal",
+      "category": "计算机图形学与多媒体",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/CGAndMT/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 1,
+        "record": {
+          "abbreviation": "TOG",
+          "full_name": "ACM Transactions on Graphics"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "ACM Trans. Graph."
+      ]
+    },
+    {
+      "abbreviation": "TIP",
+      "full_name": "IEEE Transactions on Image Processing",
+      "type": "journal",
+      "category": "计算机图形学与多媒体",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/CGAndMT/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "TIP",
+          "full_name": "IEEE Transactions on Image Processing"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "TVCG",
+      "full_name": "IEEE Transactions on Visualization and Computer Graphics",
+      "type": "journal",
+      "category": "计算机图形学与多媒体",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/CGAndMT/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 3,
+        "record": {
+          "abbreviation": "TVCG",
+          "full_name": "IEEE Transactions on Visualization and Computer Graphics"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "ACM MM",
+      "full_name": "ACM International Conference on Multimedia",
+      "type": "conference",
+      "category": "计算机图形学与多媒体",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/CGAndMT/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 1,
+        "record": {
+          "abbreviation": "ACM MM",
+          "full_name": "ACM International Conference on Multimedia"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "ACM Multimedia",
+        "ACMMM"
+      ]
+    },
+    {
+      "abbreviation": "SIGGRAPH",
+      "full_name": "ACM Special Interest Group on Computer Graphics",
+      "type": "conference",
+      "category": "计算机图形学与多媒体",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/CGAndMT/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "SIGGRAPH",
+          "full_name": "ACM Special Interest Group on Computer Graphics"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "VR",
+      "full_name": "IEEE Virtual Reality",
+      "type": "conference",
+      "category": "计算机图形学与多媒体",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/CGAndMT/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 3,
+        "record": {
+          "abbreviation": "VR",
+          "full_name": "IEEE Virtual Reality"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "IEEE VIS",
+      "full_name": "IEEE Visualization Conference",
+      "type": "conference",
+      "category": "计算机图形学与多媒体",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/CGAndMT/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 4,
+        "record": {
+          "abbreviation": "IEEE VIS",
+          "full_name": "IEEE Visualization Conference"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "AI",
+      "full_name": "Artificial Intelligence",
+      "type": "journal",
+      "category": "人工智能",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/AI/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 1,
+        "record": {
+          "abbreviation": "AI",
+          "full_name": "Artificial Intelligence"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "IJCV",
+      "full_name": "International Journal of Computer Vision",
+      "type": "journal",
+      "category": "人工智能",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/AI/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 3,
+        "record": {
+          "abbreviation": "IJCV",
+          "full_name": "International Journal of Computer Vision"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "JMLR",
+      "full_name": "Journal of Machine Learning Research",
+      "type": "journal",
+      "category": "人工智能",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/AI/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 4,
+        "record": {
+          "abbreviation": "JMLR",
+          "full_name": "Journal of Machine Learning Research"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "TOCHI",
+      "full_name": "ACM Transactions on Computer-Human Interaction",
+      "type": "journal",
+      "category": "人机交互与普适计算",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/HCIAndPC/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 1,
+        "record": {
+          "abbreviation": "TOCHI",
+          "full_name": "ACM Transactions on Computer-Human Interaction"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "IJHCS",
+      "full_name": "International Journal of Human-Computer Studies",
+      "type": "journal",
+      "category": "人机交互与普适计算",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/HCIAndPC/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "IJHCS",
+          "full_name": "International Journal of Human-Computer Studies"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "CSCW",
+      "full_name": "ACM Conference on Computer Supported Cooperative Work and Social Computing",
+      "type": "conference",
+      "category": "人机交互与普适计算",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/HCIAndPC/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 1,
+        "record": {
+          "abbreviation": "CSCW",
+          "full_name": "ACM Conference on Computer Supported Cooperative Work and Social Computing"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "CHI",
+      "full_name": "ACM Conference on Human Factors in Computing Systems",
+      "type": "conference",
+      "category": "人机交互与普适计算",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/HCIAndPC/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "CHI",
+          "full_name": "ACM Conference on Human Factors in Computing Systems"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "UbiComp/IMWUT",
+      "full_name": "ACM international joint conference on Pervasive and Ubiquitous Computing/ Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+      "type": "conference",
+      "category": "人机交互与普适计算",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/HCIAndPC/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 3,
+        "record": {
+          "abbreviation": "UbiComp/IMWUT",
+          "full_name": "ACM international joint conference on Pervasive and Ubiquitous Computing/ Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "UbiComp",
+        "IMWUT",
+        "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies"
+      ]
+    },
+    {
+      "abbreviation": "UIST",
+      "full_name": "ACM Symposium on User Interface Software and Technology",
+      "type": "conference",
+      "category": "人机交互与普适计算",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/HCIAndPC/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 4,
+        "record": {
+          "abbreviation": "UIST",
+          "full_name": "ACM Symposium on User Interface Software and Technology"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "Proc. IEEE",
+      "full_name": "Proceedings of the IEEE",
+      "type": "journal",
+      "category": "交叉/综合/新兴",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/Cross_Compre_Emerging/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "Proc. IEEE",
+          "full_name": "Proceedings of the IEEE"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "SCIS",
+      "full_name": "Science China Information Sciences",
+      "type": "journal",
+      "category": "交叉/综合/新兴",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/Cross_Compre_Emerging/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术刊物 > A类",
+        "row_number": 3,
+        "record": {
+          "abbreviation": "SCIS",
+          "full_name": "Science China Information Sciences"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "SCIENCE CHINA Information Sciences",
+        "SCIENCE CHINA-INFORMATION SCIENCES"
+      ]
+    },
+    {
+      "abbreviation": "WWW",
+      "full_name": "International World Wide Web Conference",
+      "type": "conference",
+      "category": "交叉/综合/新兴",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/Cross_Compre_Emerging/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 1,
+        "record": {
+          "abbreviation": "WWW",
+          "full_name": "International World Wide Web Conference"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": [
+        "The Web Conference",
+        "TheWebConf"
+      ]
+    },
+    {
+      "abbreviation": "RTSS",
+      "full_name": "IEEE Real-Time Systems Symposium",
+      "type": "conference",
+      "category": "交叉/综合/新兴",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/Cross_Compre_Emerging/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 2,
+        "record": {
+          "abbreviation": "RTSS",
+          "full_name": "IEEE Real-Time Systems Symposium"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    },
+    {
+      "abbreviation": "WINE",
+      "full_name": "Conference on Web and Internet Economics",
+      "type": "conference",
+      "category": "交叉/综合/新兴",
+      "classification": "A",
+      "already_in_fixed_list": false,
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/Cross_Compre_Emerging/",
+      "evidence": {
+        "section": "中国计算机学会推荐国际学术会议 > A类",
+        "row_number": 3,
+        "record": {
+          "abbreviation": "WINE",
+          "full_name": "Conference on Web and Internet Economics"
+        },
+        "verification": "官方分类页搜索索引正文明确列于A类表；为表格字段摘录，非拼接连续引文。"
+      },
+      "matching_aliases": []
+    }
+  ],
+  "already_covered": [
+    {
+      "abbreviation": "SIGCOMM",
+      "full_name": "ACM International Conference on Applications, Technologies, Architectures, and Protocols for Computer Communication",
+      "type": "conference",
+      "category": "计算机网络",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/CN/"
+    },
+    {
+      "abbreviation": "INFOCOM",
+      "full_name": "IEEE International Conference on Computer Communications",
+      "type": "conference",
+      "category": "计算机网络",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/CN/"
+    },
+    {
+      "abbreviation": "CCS",
+      "full_name": "ACM Conference on Computer and Communications Security",
+      "type": "conference",
+      "category": "网络与信息安全",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+    },
+    {
+      "abbreviation": "S&P",
+      "full_name": "IEEE Symposium on Security and Privacy",
+      "type": "conference",
+      "category": "网络与信息安全",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+    },
+    {
+      "abbreviation": "USENIX Security",
+      "full_name": "USENIX Security Symposium",
+      "type": "conference",
+      "category": "网络与信息安全",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+    },
+    {
+      "abbreviation": "NDSS",
+      "full_name": "Network and Distributed System Security Symposium",
+      "type": "conference",
+      "category": "网络与信息安全",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/NIS/"
+    },
+    {
+      "abbreviation": "SOSP",
+      "full_name": "ACM Symposium on Operating Systems Principles",
+      "type": "conference",
+      "category": "软件工程/系统软件/程序设计语言",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/"
+    },
+    {
+      "abbreviation": "ICSE",
+      "full_name": "International Conference on Software Engineering",
+      "type": "conference",
+      "category": "软件工程/系统软件/程序设计语言",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/"
+    },
+    {
+      "abbreviation": "OSDI",
+      "full_name": "USENIX Symposium on Operating Systems Design and Implementations",
+      "type": "conference",
+      "category": "软件工程/系统软件/程序设计语言",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCSE_SS_PDL/"
+    },
+    {
+      "abbreviation": "SIGMOD",
+      "full_name": "ACM SIGMOD Conference",
+      "type": "conference",
+      "category": "数据库/数据挖掘/内容检索",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/DM_CS/"
+    },
+    {
+      "abbreviation": "SIGKDD",
+      "full_name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+      "type": "conference",
+      "category": "数据库/数据挖掘/内容检索",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/DM_CS/"
+    },
+    {
+      "abbreviation": "SIGIR",
+      "full_name": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+      "type": "conference",
+      "category": "数据库/数据挖掘/内容检索",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/DM_CS/"
+    },
+    {
+      "abbreviation": "SICOMP",
+      "full_name": "SIAM Journal on Computing",
+      "type": "journal",
+      "category": "计算机科学理论",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCS/"
+    },
+    {
+      "abbreviation": "STOC",
+      "full_name": "ACM Symposium on Theory of Computing",
+      "type": "conference",
+      "category": "计算机科学理论",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCS/"
+    },
+    {
+      "abbreviation": "FOCS",
+      "full_name": "IEEE Annual Symposium on Foundations of Computer Science",
+      "type": "conference",
+      "category": "计算机科学理论",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/TCS/"
+    },
+    {
+      "abbreviation": "TPAMI",
+      "full_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "type": "journal",
+      "category": "人工智能",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/AI/"
+    },
+    {
+      "abbreviation": "AAAI",
+      "full_name": "AAAI Conference on Artificial Intelligence",
+      "type": "conference",
+      "category": "人工智能",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/AI/"
+    },
+    {
+      "abbreviation": "NeurIPS",
+      "full_name": "Conference on Neural Information Processing Systems",
+      "type": "conference",
+      "category": "人工智能",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/AI/"
+    },
+    {
+      "abbreviation": "ACL",
+      "full_name": "Annual Meeting of the Association for Computational Linguistics",
+      "type": "conference",
+      "category": "人工智能",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/AI/"
+    },
+    {
+      "abbreviation": "CVPR",
+      "full_name": "IEEE/CVF Computer Vision and Pattern Recognition Conference",
+      "type": "conference",
+      "category": "人工智能",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/AI/"
+    },
+    {
+      "abbreviation": "ICCV",
+      "full_name": "International Conference on Computer Vision",
+      "type": "conference",
+      "category": "人工智能",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/AI/"
+    },
+    {
+      "abbreviation": "ICML",
+      "full_name": "International Conference on Machine Learning",
+      "type": "conference",
+      "category": "人工智能",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/AI/"
+    },
+    {
+      "abbreviation": "IJCAI",
+      "full_name": "International Joint Conference on Artificial Intelligence",
+      "type": "conference",
+      "category": "人工智能",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/AI/"
+    },
+    {
+      "abbreviation": "JACM",
+      "full_name": "Journal of the ACM",
+      "type": "journal",
+      "category": "交叉/综合/新兴",
+      "official_url": "https://www.ccf.org.cn/Academic_Evaluation/Cross_Compre_Emerging/"
+    }
+  ],
+  "not_added_without_current_official_a_table_evidence": [
+    "HPDC",
+    "TNNLS",
+    "IEEE Transactions on Cybernetics",
+    "IEEE Transactions on Evolutionary Computation",
+    "IEEE Internet of Things Journal",
+    "IEEE Transactions on Multimedia",
+    "IEEE Transactions on Circuits and Systems for Video Technology"
+  ],
+  "additional_official_sources": [
+    {
+      "url": "https://www.ccf.org.cn/ccftjgjxskwml/",
+      "support": "官方说明T1/T2/T3分级目录与ABC推荐列表独立、不具有等效关系。"
+    },
+    {
+      "url": "https://www.ccf.org.cn/Academic_Evaluation/HCIAndPC/zgjsjxhtjgjxshy/al/2017-04-25/592133.shtml",
+      "support": "UbiComp/IMWUT单条官方记录；导航路径明确A类。"
+    }
+  ]
+}

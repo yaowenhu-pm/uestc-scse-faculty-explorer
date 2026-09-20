@@ -26,7 +26,11 @@ npm run data
 npm run validate
 ```
 
-默认读取同一工作区下 `tools/uestc-faculty/data/normalized/faculty.json`。也可以通过 `FACULTY_SOURCE` 指定规范化数据文件。
+默认从现有公开教师信息和 `data/rating-evidence.json` 重算，无需完整私有数据库。通过 `FACULTY_SOURCE` 可指定规范化来源；本地复核时还可设置 `FACULTY_PACKETS`，逐字检查摘录与保存的官网快照一致。
+
+v2 将研究荣誉、科研项目、代表成果、近年记录和证据覆盖分开评分，S/A/B 另设必要证据门槛，不设人数比例。见 [完整重评方案](./docs/rating-v2-plan.md) 和 [重评结果](./docs/rating-v2-report.md)。2026-09-21 的重评使用 2026-09-01 快照，未重新抓取官网。
+
+欢迎通过 Issue 或 PR 补充教师官网链接、相关原文、年份和本人角色；在 `data/rating-evidence.json` 中更新相应评估后运行 `npm run check`。具体档位由资料复核确定，分数与等级由代码计算。不要仅修改导出的等级或分数。
 
 公开导出不包含邮箱、电话、办公地点、照片、完整履历、原始 HTML、哈希、抓取日志或浏览器状态。CI 会再次扫描敏感字段。
 

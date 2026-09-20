@@ -1,0 +1,3292 @@
+{
+  "rubricVersion": "official-evidence-v2",
+  "reviewedAt": "2026-09-21",
+  "sourceDate": "2026-09-01",
+  "previousCommit": "1d1bce4600aff1f1c8f80c9f081fe4291572c6da",
+  "before": {
+    "S": 4,
+    "A": 15,
+    "B": 46,
+    "C": 64,
+    "D": 27,
+    "E": 33
+  },
+  "after": {
+    "S": 2,
+    "A": 26,
+    "B": 96,
+    "C": 36,
+    "D": 3,
+    "E": 26
+  },
+  "movement": {
+    "raised": 92,
+    "lowered": 13,
+    "unchanged": 84
+  },
+  "transition": {
+    "S": {
+      "S": 2,
+      "A": 0,
+      "B": 2,
+      "C": 0,
+      "D": 0,
+      "E": 0
+    },
+    "A": {
+      "S": 0,
+      "A": 6,
+      "B": 9,
+      "C": 0,
+      "D": 0,
+      "E": 0
+    },
+    "B": {
+      "S": 0,
+      "A": 12,
+      "B": 32,
+      "C": 2,
+      "D": 0,
+      "E": 0
+    },
+    "C": {
+      "S": 0,
+      "A": 8,
+      "B": 39,
+      "C": 17,
+      "D": 0,
+      "E": 0
+    },
+    "D": {
+      "S": 0,
+      "A": 0,
+      "B": 13,
+      "C": 13,
+      "D": 1,
+      "E": 0
+    },
+    "E": {
+      "S": 0,
+      "A": 0,
+      "B": 1,
+      "C": 4,
+      "D": 2,
+      "E": 26
+    }
+  },
+  "changes": [
+    {
+      "profileId": "11018",
+      "name": "申恒涛",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11018.htm",
+      "previousGrade": "S",
+      "previousScore": 74,
+      "grade": "S",
+      "score": 84,
+      "basis": {
+        "signal": 3,
+        "projects": 4,
+        "outputs": 3,
+        "latestResearchYear": 2025,
+        "categories": 3,
+        "strongCategories": 3
+      }
+    },
+    {
+      "profileId": "12686",
+      "name": "任福继",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/12686.htm",
+      "previousGrade": "S",
+      "previousScore": 77,
+      "grade": "S",
+      "score": 83,
+      "basis": {
+        "signal": 4,
+        "projects": 4,
+        "outputs": 2,
+        "latestResearchYear": 2022,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11254",
+      "name": "商烁",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11254.htm",
+      "previousGrade": "B",
+      "previousScore": 58,
+      "grade": "A",
+      "score": 82,
+      "basis": {
+        "signal": 2,
+        "projects": 4,
+        "outputs": 4,
+        "latestResearchYear": 2025,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11042",
+      "name": "叶娅兰",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11042.htm",
+      "previousGrade": "A",
+      "previousScore": 68,
+      "grade": "A",
+      "score": 82,
+      "basis": {
+        "signal": 2,
+        "projects": 4,
+        "outputs": 4,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "13650",
+      "name": "Bakhadyr Khoussainov",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/13650.htm",
+      "previousGrade": "B",
+      "previousScore": 58,
+      "grade": "A",
+      "score": 74,
+      "basis": {
+        "signal": 2,
+        "projects": 3,
+        "outputs": 4,
+        "latestResearchYear": 2023,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11383",
+      "name": "高联丽",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11383.htm",
+      "previousGrade": "B",
+      "previousScore": 54,
+      "grade": "A",
+      "score": 74,
+      "basis": {
+        "signal": 2,
+        "projects": 4,
+        "outputs": 3,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "12001",
+      "name": "鲁力",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/12001.htm",
+      "previousGrade": "B",
+      "previousScore": 58,
+      "grade": "A",
+      "score": 68,
+      "basis": {
+        "signal": 1,
+        "projects": 4,
+        "outputs": 3,
+        "latestResearchYear": 2025,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11356",
+      "name": "李洪伟",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11356.htm",
+      "previousGrade": "A",
+      "previousScore": 68,
+      "grade": "A",
+      "score": 68,
+      "basis": {
+        "signal": 1,
+        "projects": 4,
+        "outputs": 3,
+        "latestResearchYear": 2025,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11213",
+      "name": "邵俊明",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11213.htm",
+      "previousGrade": "B",
+      "previousScore": 57,
+      "grade": "A",
+      "score": 68,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 4,
+        "latestResearchYear": 2023,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "15369",
+      "name": "张永昭",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15369.htm",
+      "previousGrade": "C",
+      "previousScore": 47,
+      "grade": "A",
+      "score": 68,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 4,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11029",
+      "name": "田玲",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11029.htm",
+      "previousGrade": "A",
+      "previousScore": 64,
+      "grade": "A",
+      "score": 67,
+      "basis": {
+        "signal": 3,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11214",
+      "name": "沈复民",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11214.htm",
+      "previousGrade": "A",
+      "previousScore": 66,
+      "grade": "A",
+      "score": 66,
+      "basis": {
+        "signal": 2,
+        "projects": 3,
+        "outputs": 3,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "15372",
+      "name": "Toru Takisaka",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15372.htm",
+      "previousGrade": "C",
+      "previousScore": 45,
+      "grade": "A",
+      "score": 66,
+      "basis": {
+        "signal": 2,
+        "projects": 3,
+        "outputs": 3,
+        "latestResearchYear": 2024,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11025",
+      "name": "杨阳",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11025.htm",
+      "previousGrade": "B",
+      "previousScore": 52,
+      "grade": "A",
+      "score": 66,
+      "basis": {
+        "signal": 2,
+        "projects": 3,
+        "outputs": 3,
+        "latestResearchYear": 2024,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11418",
+      "name": "肖鸣宇",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11418.htm",
+      "previousGrade": "B",
+      "previousScore": 52,
+      "grade": "A",
+      "score": 63,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 4,
+        "latestResearchYear": 2021,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11211",
+      "name": "段立新",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11211.htm",
+      "previousGrade": "B",
+      "previousScore": 61,
+      "grade": "A",
+      "score": 62,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 4,
+        "latestResearchYear": 2023,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "10952",
+      "name": "康昭",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10952.htm",
+      "previousGrade": "B",
+      "previousScore": 54,
+      "grade": "A",
+      "score": 62,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 4,
+        "latestResearchYear": 2026,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11372",
+      "name": "李经纬",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11372.htm",
+      "previousGrade": "C",
+      "previousScore": 45,
+      "grade": "A",
+      "score": 62,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 4,
+        "latestResearchYear": 2023,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11019",
+      "name": "刘峤",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11019.htm",
+      "previousGrade": "C",
+      "previousScore": 47,
+      "grade": "A",
+      "score": 62,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 4,
+        "latestResearchYear": 2024,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11960",
+      "name": "任彦之",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11960.htm",
+      "previousGrade": "C",
+      "previousScore": 42,
+      "grade": "A",
+      "score": 62,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 4,
+        "latestResearchYear": 2026,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "17294",
+      "name": "位纪伟",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/17294.htm",
+      "previousGrade": "C",
+      "previousScore": 40,
+      "grade": "A",
+      "score": 62,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 4,
+        "latestResearchYear": 2025,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "15380",
+      "name": "杨杰",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15380.htm",
+      "previousGrade": "B",
+      "previousScore": 54,
+      "grade": "A",
+      "score": 62,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 4,
+        "latestResearchYear": 2023,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "17098",
+      "name": "张超宁",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/17098.htm",
+      "previousGrade": "C",
+      "previousScore": 41,
+      "grade": "A",
+      "score": 62,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 4,
+        "latestResearchYear": 2026,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11280",
+      "name": "曹晟",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11280.htm",
+      "previousGrade": "A",
+      "previousScore": 71,
+      "grade": "A",
+      "score": 60,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 3,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "10956",
+      "name": "常征",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10956.htm",
+      "previousGrade": "C",
+      "previousScore": 35,
+      "grade": "A",
+      "score": 60,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 3,
+        "latestResearchYear": 2024,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "12608",
+      "name": "李发根",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/12608.htm",
+      "previousGrade": "B",
+      "previousScore": 53,
+      "grade": "A",
+      "score": 60,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 3,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11250",
+      "name": "薛瑞尼",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11250.htm",
+      "previousGrade": "B",
+      "previousScore": 61,
+      "grade": "A",
+      "score": 60,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 3,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11563",
+      "name": "杨浩淼",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11563.htm",
+      "previousGrade": "A",
+      "previousScore": 68,
+      "grade": "A",
+      "score": 60,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 3,
+        "latestResearchYear": 2025,
+        "categories": 3,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11257",
+      "name": "张源",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11257.htm",
+      "previousGrade": "C",
+      "previousScore": 45,
+      "grade": "B",
+      "score": 62,
+      "basis": {
+        "signal": 2,
+        "projects": 2,
+        "outputs": 4,
+        "latestResearchYear": 2021,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "15390",
+      "name": "王鹏",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15390.htm",
+      "previousGrade": "C",
+      "previousScore": 45,
+      "grade": "B",
+      "score": 61,
+      "basis": {
+        "signal": 2,
+        "projects": 1,
+        "outputs": 4,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11360",
+      "name": "张小松",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11360.htm",
+      "previousGrade": "S",
+      "previousScore": 79,
+      "grade": "B",
+      "score": 60,
+      "basis": {
+        "signal": 2,
+        "projects": 4,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11357",
+      "name": "汪文勇",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11357.htm",
+      "previousGrade": "S",
+      "previousScore": 81,
+      "grade": "B",
+      "score": 59,
+      "basis": {
+        "signal": 1,
+        "projects": 4,
+        "outputs": 2,
+        "latestResearchYear": 2024,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11244",
+      "name": "刘鸿博",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11244.htm",
+      "previousGrade": "B",
+      "previousScore": 49,
+      "grade": "B",
+      "score": 57,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 4,
+        "latestResearchYear": 2021,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "10962",
+      "name": "李晶晶",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10962.htm",
+      "previousGrade": "B",
+      "previousScore": 48,
+      "grade": "B",
+      "score": 57,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 4,
+        "latestResearchYear": 2021,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "15204",
+      "name": "刘昭强",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15204.htm",
+      "previousGrade": "C",
+      "previousScore": 35,
+      "grade": "B",
+      "score": 57,
+      "basis": {
+        "signal": 2,
+        "projects": 0,
+        "outputs": 4,
+        "latestResearchYear": 2024,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11355",
+      "name": "周涛",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11355.htm",
+      "previousGrade": "C",
+      "previousScore": 42,
+      "grade": "B",
+      "score": 57,
+      "basis": {
+        "signal": 2,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2023,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11258",
+      "name": "张彦如",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11258.htm",
+      "previousGrade": "C",
+      "previousScore": 45,
+      "grade": "B",
+      "score": 56,
+      "basis": {
+        "signal": 2,
+        "projects": 1,
+        "outputs": 4,
+        "latestResearchYear": 2021,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "17958",
+      "name": "姜文博",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/17958.htm",
+      "previousGrade": "B",
+      "previousScore": 58,
+      "grade": "B",
+      "score": 55,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 4,
+        "latestResearchYear": 2026,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11022",
+      "name": "罗嘉庆",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11022.htm",
+      "previousGrade": "C",
+      "previousScore": 35,
+      "grade": "B",
+      "score": 54,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 3,
+        "latestResearchYear": 2023,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11140",
+      "name": "吴洪",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11140.htm",
+      "previousGrade": "C",
+      "previousScore": 40,
+      "grade": "B",
+      "score": 54,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 3,
+        "latestResearchYear": 2024,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11031",
+      "name": "谢宁",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11031.htm",
+      "previousGrade": "A",
+      "previousScore": 63,
+      "grade": "B",
+      "score": 54,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 3,
+        "latestResearchYear": 2022,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11229",
+      "name": "郑凯",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11229.htm",
+      "previousGrade": "D",
+      "previousScore": 27,
+      "grade": "B",
+      "score": 54,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 3,
+        "latestResearchYear": 2023,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11379",
+      "name": "陈爱国",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11379.htm",
+      "previousGrade": "B",
+      "previousScore": 48,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2023,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11926",
+      "name": "陈端兵",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11926.htm",
+      "previousGrade": "B",
+      "previousScore": 53,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "12044",
+      "name": "段翰聪",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/12044.htm",
+      "previousGrade": "B",
+      "previousScore": 55,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2023,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11369",
+      "name": "丁旭阳",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11369.htm",
+      "previousGrade": "B",
+      "previousScore": 56,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2023,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11935",
+      "name": "范明钰",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11935.htm",
+      "previousGrade": "C",
+      "previousScore": 40,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2022,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11403",
+      "name": "符红光",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11403.htm",
+      "previousGrade": "B",
+      "previousScore": 60,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2022,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11939",
+      "name": "高辉",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11939.htm",
+      "previousGrade": "B",
+      "previousScore": 50,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2024,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11287",
+      "name": "郝东",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11287.htm",
+      "previousGrade": "B",
+      "previousScore": 57,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 0,
+        "outputs": 4,
+        "latestResearchYear": 2025,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "15373",
+      "name": "黄利伟",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15373.htm",
+      "previousGrade": "C",
+      "previousScore": 39,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11947",
+      "name": "李建平",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11947.htm",
+      "previousGrade": "B",
+      "previousScore": 59,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11374",
+      "name": "牛伟纳",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11374.htm",
+      "previousGrade": "C",
+      "previousScore": 37,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11024",
+      "name": "蒲晓蓉",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11024.htm",
+      "previousGrade": "C",
+      "previousScore": 45,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2022,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11251",
+      "name": "屈鸿",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11251.htm",
+      "previousGrade": "B",
+      "previousScore": 59,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2023,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "16855",
+      "name": "吴海威",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/16855.htm",
+      "previousGrade": "C",
+      "previousScore": 32,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 0,
+        "outputs": 4,
+        "latestResearchYear": 2024,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "15638",
+      "name": "王晓斌",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15638.htm",
+      "previousGrade": "A",
+      "previousScore": 62,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2025,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11515",
+      "name": "汪小芬",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11515.htm",
+      "previousGrade": "A",
+      "previousScore": 63,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11027",
+      "name": "杨国武",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11027.htm",
+      "previousGrade": "B",
+      "previousScore": 51,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2025,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "10957",
+      "name": "叶茂",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10957.htm",
+      "previousGrade": "A",
+      "previousScore": 65,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2023,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "10967",
+      "name": "杨波",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10967.htm",
+      "previousGrade": "C",
+      "previousScore": 45,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11981",
+      "name": "周俊临",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11981.htm",
+      "previousGrade": "A",
+      "previousScore": 67,
+      "grade": "B",
+      "score": 51,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2022,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11212",
+      "name": "李文",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11212.htm",
+      "previousGrade": "B",
+      "previousScore": 54,
+      "grade": "B",
+      "score": 49,
+      "basis": {
+        "signal": 0,
+        "projects": 1,
+        "outputs": 4,
+        "latestResearchYear": 2022,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11952",
+      "name": "刘念伯",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11952.htm",
+      "previousGrade": "C",
+      "previousScore": 34,
+      "grade": "B",
+      "score": 49,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 3,
+        "latestResearchYear": 2021,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11215",
+      "name": "王国庆",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11215.htm",
+      "previousGrade": "B",
+      "previousScore": 50,
+      "grade": "B",
+      "score": 49,
+      "basis": {
+        "signal": 0,
+        "projects": 1,
+        "outputs": 4,
+        "latestResearchYear": 2026,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11925",
+      "name": "吴立军",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11925.htm",
+      "previousGrade": "C",
+      "previousScore": 43,
+      "grade": "B",
+      "score": 49,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 3,
+        "latestResearchYear": 2020,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "11510",
+      "name": "周毅",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11510.htm",
+      "previousGrade": "C",
+      "previousScore": 36,
+      "grade": "B",
+      "score": 49,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 3,
+        "latestResearchYear": 2021,
+        "categories": 2,
+        "strongCategories": 2
+      }
+    },
+    {
+      "profileId": "16384",
+      "name": "高莘",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/16384.htm",
+      "previousGrade": "B",
+      "previousScore": 52,
+      "grade": "B",
+      "score": 47,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 3,
+        "latestResearchYear": 2026,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "13651",
+      "name": "李玉军",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/13651.htm",
+      "previousGrade": "D",
+      "previousScore": 29,
+      "grade": "B",
+      "score": 47,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 3,
+        "latestResearchYear": 2023,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11026",
+      "name": "邱航",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11026.htm",
+      "previousGrade": "B",
+      "previousScore": 58,
+      "grade": "B",
+      "score": 47,
+      "basis": {
+        "signal": 1,
+        "projects": 1,
+        "outputs": 3,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "17829",
+      "name": "张少帅",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/17829.htm",
+      "previousGrade": "B",
+      "previousScore": 51,
+      "grade": "B",
+      "score": 47,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 3,
+        "latestResearchYear": 2026,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "18315",
+      "name": "张众",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/18315.htm",
+      "previousGrade": "C",
+      "previousScore": 35,
+      "grade": "B",
+      "score": 47,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 3,
+        "latestResearchYear": 2026,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11401",
+      "name": "董强",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11401.htm",
+      "previousGrade": "C",
+      "previousScore": 42,
+      "grade": "B",
+      "score": 46,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11249",
+      "name": "刘震",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11249.htm",
+      "previousGrade": "B",
+      "previousScore": 49,
+      "grade": "B",
+      "score": 46,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11209",
+      "name": "陈虹",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11209.htm",
+      "previousGrade": "D",
+      "previousScore": 28,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2022,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11375",
+      "name": "程伟",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11375.htm",
+      "previousGrade": "C",
+      "previousScore": 44,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2023,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11298",
+      "name": "曾伟",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11298.htm",
+      "previousGrade": "C",
+      "previousScore": 32,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2022,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "15370",
+      "name": "符明晟",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15370.htm",
+      "previousGrade": "C",
+      "previousScore": 34,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2026,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "15382",
+      "name": "谷雨",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15382.htm",
+      "previousGrade": "A",
+      "previousScore": 63,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2024,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11373",
+      "name": "黄可",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11373.htm",
+      "previousGrade": "C",
+      "previousScore": 35,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2023,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "10951",
+      "name": "胡旺",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10951.htm",
+      "previousGrade": "B",
+      "previousScore": 48,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2026,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "10964",
+      "name": "林劼",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10964.htm",
+      "previousGrade": "C",
+      "previousScore": 44,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2024,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11400",
+      "name": "李雄",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11400.htm",
+      "previousGrade": "B",
+      "previousScore": 55,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2024,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11199",
+      "name": "秦科",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11199.htm",
+      "previousGrade": "B",
+      "previousScore": 53,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2025,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "10961",
+      "name": "孙国林",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10961.htm",
+      "previousGrade": "C",
+      "previousScore": 41,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2024,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11021",
+      "name": "邵杰",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11021.htm",
+      "previousGrade": "B",
+      "previousScore": 60,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2023,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11961",
+      "name": "宋超",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11961.htm",
+      "previousGrade": "B",
+      "previousScore": 60,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2025,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "10963",
+      "name": "向渝",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10963.htm",
+      "previousGrade": "C",
+      "previousScore": 39,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2022,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11924",
+      "name": "许春香",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11924.htm",
+      "previousGrade": "A",
+      "previousScore": 63,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2022,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "12350",
+      "name": "张马路",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/12350.htm",
+      "previousGrade": "B",
+      "previousScore": 51,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2026,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11402",
+      "name": "钟秀琴",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11402.htm",
+      "previousGrade": "C",
+      "previousScore": 41,
+      "grade": "B",
+      "score": 45,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2022,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11210",
+      "name": "段贵多",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11210.htm",
+      "previousGrade": "B",
+      "previousScore": 50,
+      "grade": "B",
+      "score": 44,
+      "basis": {
+        "signal": 1,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2023,
+        "categories": 3,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11282",
+      "name": "黄鹂声",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11282.htm",
+      "previousGrade": "A",
+      "previousScore": 64,
+      "grade": "B",
+      "score": 44,
+      "basis": {
+        "signal": 1,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2023,
+        "categories": 3,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11020",
+      "name": "晏华",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11020.htm",
+      "previousGrade": "B",
+      "previousScore": 53,
+      "grade": "B",
+      "score": 44,
+      "basis": {
+        "signal": 1,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2023,
+        "categories": 3,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11416",
+      "name": "詹文翰",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11416.htm",
+      "previousGrade": "C",
+      "previousScore": 45,
+      "grade": "B",
+      "score": 44,
+      "basis": {
+        "signal": 1,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "10973",
+      "name": "张栗粽",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10973.htm",
+      "previousGrade": "B",
+      "previousScore": 58,
+      "grade": "B",
+      "score": 44,
+      "basis": {
+        "signal": 1,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2024,
+        "categories": 3,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11456",
+      "name": "赵志为",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11456.htm",
+      "previousGrade": "C",
+      "previousScore": 38,
+      "grade": "B",
+      "score": 44,
+      "basis": {
+        "signal": 0,
+        "projects": 1,
+        "outputs": 4,
+        "latestResearchYear": 2020,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11931",
+      "name": "陈厅",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11931.htm",
+      "previousGrade": "D",
+      "previousScore": 22,
+      "grade": "B",
+      "score": 43,
+      "basis": {
+        "signal": 1,
+        "projects": 0,
+        "outputs": 3,
+        "latestResearchYear": 2022,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11644",
+      "name": "蔡洪斌",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11644.htm",
+      "previousGrade": "B",
+      "previousScore": 59,
+      "grade": "B",
+      "score": 41,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2016,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "10947",
+      "name": "卢光辉",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10947.htm",
+      "previousGrade": "D",
+      "previousScore": 30,
+      "grade": "B",
+      "score": 41,
+      "basis": {
+        "signal": 1,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2016,
+        "categories": 3,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11286",
+      "name": "龚海刚",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11286.htm",
+      "previousGrade": "C",
+      "previousScore": 46,
+      "grade": "B",
+      "score": 40,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2020,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "15383",
+      "name": "姜徐",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15383.htm",
+      "previousGrade": "E",
+      "previousScore": 14,
+      "grade": "B",
+      "score": 40,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 4,
+        "latestResearchYear": 2022,
+        "categories": 1,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11840",
+      "name": "刘明",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11840.htm",
+      "previousGrade": "C",
+      "previousScore": 42,
+      "grade": "B",
+      "score": 40,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11514",
+      "name": "鲁珂",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11514.htm",
+      "previousGrade": "C",
+      "previousScore": 39,
+      "grade": "B",
+      "score": 40,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "17839",
+      "name": "孙剑飞",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/17839.htm",
+      "previousGrade": "D",
+      "previousScore": 31,
+      "grade": "B",
+      "score": 40,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 4,
+        "latestResearchYear": 2025,
+        "categories": 1,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "18655",
+      "name": "王煜宇",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/18655.htm",
+      "previousGrade": "D",
+      "previousScore": 21,
+      "grade": "B",
+      "score": 40,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 4,
+        "latestResearchYear": 2025,
+        "categories": 1,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "16410",
+      "name": "徐国文",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/16410.htm",
+      "previousGrade": "C",
+      "previousScore": 36,
+      "grade": "B",
+      "score": 40,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 4,
+        "latestResearchYear": 2023,
+        "categories": 1,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11972",
+      "name": "向艳萍",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11972.htm",
+      "previousGrade": "C",
+      "previousScore": 32,
+      "grade": "B",
+      "score": 40,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "18329",
+      "name": "郑自强",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/18329.htm",
+      "previousGrade": "C",
+      "previousScore": 33,
+      "grade": "B",
+      "score": 40,
+      "basis": {
+        "signal": 2,
+        "projects": 0,
+        "outputs": 2,
+        "latestResearchYear": 2025,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11959",
+      "name": "邱曦伟",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11959.htm",
+      "previousGrade": "D",
+      "previousScore": 31,
+      "grade": "B",
+      "score": 39,
+      "basis": {
+        "signal": 1,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 3,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "10960",
+      "name": "王勇",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10960.htm",
+      "previousGrade": "C",
+      "previousScore": 38,
+      "grade": "B",
+      "score": 39,
+      "basis": {
+        "signal": 1,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 3,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11641",
+      "name": "夏琦",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11641.htm",
+      "previousGrade": "B",
+      "previousScore": 53,
+      "grade": "B",
+      "score": 39,
+      "basis": {
+        "signal": 1,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 3,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11419",
+      "name": "陈文宇",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11419.htm",
+      "previousGrade": "A",
+      "previousScore": 64,
+      "grade": "B",
+      "score": 38,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2022,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11940",
+      "name": "郭磊",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11940.htm",
+      "previousGrade": "C",
+      "previousScore": 39,
+      "grade": "B",
+      "score": 38,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2025,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "15374",
+      "name": "蓝天",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15374.htm",
+      "previousGrade": "B",
+      "previousScore": 54,
+      "grade": "B",
+      "score": 38,
+      "basis": {
+        "signal": 1,
+        "projects": 1,
+        "outputs": 2,
+        "latestResearchYear": 2026,
+        "categories": 3,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11529",
+      "name": "刘杰彦",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11529.htm",
+      "previousGrade": "C",
+      "previousScore": 44,
+      "grade": "B",
+      "score": 38,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2023,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "15385",
+      "name": "席瑞",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15385.htm",
+      "previousGrade": "C",
+      "previousScore": 47,
+      "grade": "B",
+      "score": 38,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2026,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "10958",
+      "name": "闫科",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10958.htm",
+      "previousGrade": "D",
+      "previousScore": 30,
+      "grade": "B",
+      "score": 38,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2022,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "10969",
+      "name": "张可",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10969.htm",
+      "previousGrade": "B",
+      "previousScore": 50,
+      "grade": "B",
+      "score": 38,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2023,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11530",
+      "name": "崔金钟",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11530.htm",
+      "previousGrade": "C",
+      "previousScore": 47,
+      "grade": "B",
+      "score": 36,
+      "basis": {
+        "signal": 1,
+        "projects": 2,
+        "outputs": 0,
+        "latestResearchYear": 2023,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "10974",
+      "name": "郑旭",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10974.htm",
+      "previousGrade": "D",
+      "previousScore": 20,
+      "grade": "B",
+      "score": 36,
+      "basis": {
+        "signal": 0,
+        "projects": 1,
+        "outputs": 3,
+        "latestResearchYear": 2021,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11352",
+      "name": "陈力思",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11352.htm",
+      "previousGrade": "D",
+      "previousScore": 28,
+      "grade": "B",
+      "score": 35,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 4,
+        "latestResearchYear": 2021,
+        "categories": 1,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11141",
+      "name": "石小爽",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11141.htm",
+      "previousGrade": "D",
+      "previousScore": 24,
+      "grade": "B",
+      "score": 35,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 4,
+        "latestResearchYear": 2021,
+        "categories": 1,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "10959",
+      "name": "郑莉华",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10959.htm",
+      "previousGrade": "D",
+      "previousScore": 28,
+      "grade": "B",
+      "score": 35,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 2,
+        "latestResearchYear": 2016,
+        "categories": 2,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11285",
+      "name": "曾金全",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11285.htm",
+      "previousGrade": "C",
+      "previousScore": 35,
+      "grade": "C",
+      "score": 34,
+      "basis": {
+        "signal": 1,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2016,
+        "categories": 3,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11284",
+      "name": "蔡世民",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11284.htm",
+      "previousGrade": "C",
+      "previousScore": 45,
+      "grade": "C",
+      "score": 33,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11639",
+      "name": "高建彬",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11639.htm",
+      "previousGrade": "C",
+      "previousScore": 41,
+      "grade": "C",
+      "score": 33,
+      "basis": {
+        "signal": 1,
+        "projects": 1,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 3,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11417",
+      "name": "桂盛霖",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11417.htm",
+      "previousGrade": "D",
+      "previousScore": 31,
+      "grade": "C",
+      "score": 33,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "15379",
+      "name": "姜辉",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15379.htm",
+      "previousGrade": "C",
+      "previousScore": 42,
+      "grade": "C",
+      "score": 33,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2020,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "10953",
+      "name": "李林",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10953.htm",
+      "previousGrade": "D",
+      "previousScore": 29,
+      "grade": "C",
+      "score": 33,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "10968",
+      "name": "罗建超",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10968.htm",
+      "previousGrade": "C",
+      "previousScore": 39,
+      "grade": "C",
+      "score": 33,
+      "basis": {
+        "signal": 1,
+        "projects": 1,
+        "outputs": 2,
+        "latestResearchYear": 2017,
+        "categories": 3,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11260",
+      "name": "卢国明",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11260.htm",
+      "previousGrade": "C",
+      "previousScore": 41,
+      "grade": "C",
+      "score": 33,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11354",
+      "name": "申杰",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11354.htm",
+      "previousGrade": "C",
+      "previousScore": 42,
+      "grade": "C",
+      "score": 33,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11640",
+      "name": "夏虎",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11640.htm",
+      "previousGrade": "D",
+      "previousScore": 31,
+      "grade": "C",
+      "score": 33,
+      "basis": {
+        "signal": 1,
+        "projects": 1,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 3,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "10954",
+      "name": "陈娟",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10954.htm",
+      "previousGrade": "B",
+      "previousScore": 51,
+      "grade": "C",
+      "score": 32,
+      "basis": {
+        "signal": 0,
+        "projects": 1,
+        "outputs": 2,
+        "latestResearchYear": 2025,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "15378",
+      "name": "邓佳文",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15378.htm",
+      "previousGrade": "D",
+      "previousScore": 25,
+      "grade": "C",
+      "score": 32,
+      "basis": {
+        "signal": 0,
+        "projects": 1,
+        "outputs": 2,
+        "latestResearchYear": 2024,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "15377",
+      "name": "方伯芃",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15377.htm",
+      "previousGrade": "C",
+      "previousScore": 47,
+      "grade": "C",
+      "score": 32,
+      "basis": {
+        "signal": 0,
+        "projects": 1,
+        "outputs": 2,
+        "latestResearchYear": 2024,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "15371",
+      "name": "胡平",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15371.htm",
+      "previousGrade": "D",
+      "previousScore": 28,
+      "grade": "C",
+      "score": 32,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 3,
+        "latestResearchYear": 2025,
+        "categories": 1,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11207",
+      "name": "任亚洲",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11207.htm",
+      "previousGrade": "C",
+      "previousScore": 44,
+      "grade": "C",
+      "score": 32,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 0,
+        "latestResearchYear": 2023,
+        "categories": 1,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11281",
+      "name": "唐勇",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11281.htm",
+      "previousGrade": "C",
+      "previousScore": 36,
+      "grade": "C",
+      "score": 32,
+      "basis": {
+        "signal": 0,
+        "projects": 1,
+        "outputs": 2,
+        "latestResearchYear": 2022,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11405",
+      "name": "王晓敏",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11405.htm",
+      "previousGrade": "C",
+      "previousScore": 46,
+      "grade": "C",
+      "score": 32,
+      "basis": {
+        "signal": 0,
+        "projects": 1,
+        "outputs": 2,
+        "latestResearchYear": 2022,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11283",
+      "name": "杨挺",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11283.htm",
+      "previousGrade": "C",
+      "previousScore": 33,
+      "grade": "C",
+      "score": 32,
+      "basis": {
+        "signal": 0,
+        "projects": 1,
+        "outputs": 2,
+        "latestResearchYear": 2024,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "17837",
+      "name": "左朝顺",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/17837.htm",
+      "previousGrade": "D",
+      "previousScore": 23,
+      "grade": "C",
+      "score": 32,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 3,
+        "latestResearchYear": 2026,
+        "categories": 1,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11208",
+      "name": "戴波",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11208.htm",
+      "previousGrade": "D",
+      "previousScore": 27,
+      "grade": "C",
+      "score": 31,
+      "basis": {
+        "signal": 1,
+        "projects": 2,
+        "outputs": 0,
+        "latestResearchYear": 2021,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "13459",
+      "name": "顾舒航",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/13459.htm",
+      "previousGrade": "D",
+      "previousScore": 24,
+      "grade": "C",
+      "score": 29,
+      "basis": {
+        "signal": 2,
+        "projects": 1,
+        "outputs": 1,
+        "latestResearchYear": null,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11353",
+      "name": "侯孟书",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11353.htm",
+      "previousGrade": "C",
+      "previousScore": 45,
+      "grade": "C",
+      "score": 29,
+      "basis": {
+        "signal": 1,
+        "projects": 2,
+        "outputs": 1,
+        "latestResearchYear": null,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11454",
+      "name": "牛新征",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11454.htm",
+      "previousGrade": "B",
+      "previousScore": 57,
+      "grade": "C",
+      "score": 29,
+      "basis": {
+        "signal": 1,
+        "projects": 2,
+        "outputs": 1,
+        "latestResearchYear": null,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11413",
+      "name": "王丽杰",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11413.htm",
+      "previousGrade": "C",
+      "previousScore": 38,
+      "grade": "C",
+      "score": 27,
+      "basis": {
+        "signal": 0,
+        "projects": 1,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "10966",
+      "name": "丘志杰",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10966.htm",
+      "previousGrade": "D",
+      "previousScore": 27,
+      "grade": "C",
+      "score": 26,
+      "basis": {
+        "signal": 1,
+        "projects": 2,
+        "outputs": 0,
+        "latestResearchYear": 2015,
+        "categories": 2,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11028",
+      "name": "韩世蛟",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11028.htm",
+      "previousGrade": "D",
+      "previousScore": 21,
+      "grade": "C",
+      "score": 25,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 0,
+        "latestResearchYear": 2022,
+        "categories": 1,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11951",
+      "name": "廖建明",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11951.htm",
+      "previousGrade": "E",
+      "previousScore": 14,
+      "grade": "C",
+      "score": 25,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 0,
+        "latestResearchYear": 2023,
+        "categories": 1,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11975",
+      "name": "徐杨",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11975.htm",
+      "previousGrade": "C",
+      "previousScore": 38,
+      "grade": "C",
+      "score": 25,
+      "basis": {
+        "signal": 0,
+        "projects": 3,
+        "outputs": 1,
+        "latestResearchYear": null,
+        "categories": 1,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "10950",
+      "name": "赵瑛峰",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/10950.htm",
+      "previousGrade": "D",
+      "previousScore": 31,
+      "grade": "C",
+      "score": 25,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 0,
+        "latestResearchYear": 2023,
+        "categories": 1,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "15386",
+      "name": "刘栋骁",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/15386.htm",
+      "previousGrade": "E",
+      "previousScore": 5,
+      "grade": "C",
+      "score": 23,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 2,
+        "latestResearchYear": 2023,
+        "categories": 1,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11973",
+      "name": "肖逸飞",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11973.htm",
+      "previousGrade": "E",
+      "previousScore": 15,
+      "grade": "C",
+      "score": 23,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 2,
+        "latestResearchYear": 2023,
+        "categories": 1,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11404",
+      "name": "左志宏",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11404.htm",
+      "previousGrade": "D",
+      "previousScore": 24,
+      "grade": "C",
+      "score": 22,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 3,
+        "latestResearchYear": 2006,
+        "categories": 1,
+        "strongCategories": 1
+      }
+    },
+    {
+      "profileId": "11988",
+      "name": "许超",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11988.htm",
+      "previousGrade": "E",
+      "previousScore": 14,
+      "grade": "C",
+      "score": 18,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 2,
+        "latestResearchYear": 2021,
+        "categories": 1,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "16701",
+      "name": "邹杰",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/16701.htm",
+      "previousGrade": "C",
+      "previousScore": 43,
+      "grade": "C",
+      "score": 18,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 1,
+        "latestResearchYear": null,
+        "categories": 1,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "12609",
+      "name": "魏祖宽",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/12609.htm",
+      "previousGrade": "C",
+      "previousScore": 33,
+      "grade": "C",
+      "score": 15,
+      "basis": {
+        "signal": 0,
+        "projects": 2,
+        "outputs": 0,
+        "latestResearchYear": 2014,
+        "categories": 1,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11942",
+      "name": "韩宏",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11942.htm",
+      "previousGrade": "D",
+      "previousScore": 29,
+      "grade": "C",
+      "score": 13,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 2,
+        "latestResearchYear": null,
+        "categories": 1,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11415",
+      "name": "俸志刚",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11415.htm",
+      "previousGrade": "E",
+      "previousScore": 2,
+      "grade": "D",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11252",
+      "name": "纪禄平",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11252.htm",
+      "previousGrade": "E",
+      "previousScore": 11,
+      "grade": "D",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11511",
+      "name": "余盛季",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11511.htm",
+      "previousGrade": "D",
+      "previousScore": 22,
+      "grade": "D",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11928",
+      "name": "陈洑",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11928.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11929",
+      "name": "陈昆",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11929.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11930",
+      "name": "陈瑞东",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11930.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11933",
+      "name": "杜洋",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11933.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11932",
+      "name": "邓建",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11932.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11937",
+      "name": "付波",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11937.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11936",
+      "name": "符朝旭",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11936.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11938",
+      "name": "傅彦",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11938.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11941",
+      "name": "郭迅",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11941.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11943",
+      "name": "郝玉洁",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11943.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11944",
+      "name": "胡健",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11944.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11945",
+      "name": "吉家成",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11945.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11955",
+      "name": "罗亮",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11955.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11956",
+      "name": "米源",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11956.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11957",
+      "name": "聂晓文",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11957.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11958",
+      "name": "蒲剑苏",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11958.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11962",
+      "name": "苏涵",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11962.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11963",
+      "name": "孙明",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11963.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11965",
+      "name": "唐泳",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11965.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11971",
+      "name": "吴淮",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11971.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11970",
+      "name": "文泉",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11970.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11966",
+      "name": "王华",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11966.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11968",
+      "name": "王玉林",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11968.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11974",
+      "name": "邢建川",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11974.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11978",
+      "name": "张骏",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11978.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    },
+    {
+      "profileId": "11977",
+      "name": "张建",
+      "profileUrl": "https://www.scse.uestc.edu.cn/info/1081/11977.htm",
+      "previousGrade": "E",
+      "previousScore": 0,
+      "grade": "E",
+      "score": 0,
+      "basis": {
+        "signal": 0,
+        "projects": 0,
+        "outputs": 0,
+        "latestResearchYear": null,
+        "categories": 0,
+        "strongCategories": 0
+      }
+    }
+  ]
+}

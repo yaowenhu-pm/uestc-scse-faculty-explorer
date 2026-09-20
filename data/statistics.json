@@ -1,26 +1,25 @@
 {
-  "generatedAt": "2026-09-01T09:58:30.290Z",
-  "sourceCollectedAt": "2026-09-01T08:28:56.735Z",
+  "generatedAt": "2026-09-21",
+  "sourceCollectedAt": "2026-09-01",
   "teacherCount": 189,
   "gradeDistribution": {
-    "S": 4,
-    "A": 15,
-    "B": 46,
-    "C": 64,
-    "D": 27,
-    "E": 33
+    "S": 2,
+    "A": 26,
+    "B": 96,
+    "C": 36,
+    "D": 3,
+    "E": 26
   },
   "departmentDistribution": {
+    "计算机软件与理论系": 76,
     "计算机工程与应用系": 40,
     "信息安全系": 40,
-    "计算机软件与理论系": 76,
-    "计算机国家级实验教学示范中心": 2,
     "官网未列出": 25,
+    "计算机国家级实验教学示范中心": 2,
     "实验中心": 6
   },
   "reviewDistribution": {
-    "incomplete": 87,
-    "ok": 102
+    "AI 辅助逐条复核": 189
   },
-  "rubricVersion": "official-evidence-v1"
+  "rubricVersion": "official-evidence-v2"
 }

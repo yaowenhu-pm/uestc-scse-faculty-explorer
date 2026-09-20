@@ -1,6 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs/promises";
+import { rateAssessment } from "../scripts/rating-rules.mjs";
 
 const faculty = JSON.parse(await fs.readFile(new URL("../data/faculty.public.json", import.meta.url), "utf8"));
 
@@ -16,11 +17,14 @@ test("public export contains no contact or raw archive fields", () => {
   assert.doesNotMatch(text, /(?:\+?86[-\s]?)?1[3-9]\d{9}/);
 });
 
-test("S tier is gated by explicit top signals", () => {
-  const sTier = faculty.filter((item) => item.evidenceGrade === "S");
-  assert.equal(sTier.length, 4);
-  for (const item of sTier) {
-    assert.ok(item.evidenceScore >= 72);
-    assert.ok(item.hardSignals.some((signal) => /院士|国家级人才|会士|国家级科技奖励/.test(signal)));
+test("all published scores and gates reproduce from reviewed evidence", async () => {
+  const { assessments } = JSON.parse(await fs.readFile(new URL("../data/rating-evidence.json", import.meta.url), "utf8"));
+  assert.equal(assessments.length, faculty.length);
+  const byId = new Map(assessments.map(a => [a.profileId, a]));
+  for (const item of faculty) {
+    const expected = rateAssessment(byId.get(item.profileId), item);
+    assert.equal(item.evidenceGrade, expected.evidenceGrade);
+    assert.equal(item.evidenceScore, expected.evidenceScore);
+    assert.deepEqual(item.ratingBasis, expected.ratingBasis);
   }
 });

@@ -23,6 +23,8 @@ jobs:
         with:
           node-version: 22
       - run: npm run validate
+      - run: npm run data
+      - run: git diff --exit-code -- data/faculty.public.json data/statistics.json data/data-version.json
       - run: npm test
       - name: Assemble public artifact from allowlist
         run: |

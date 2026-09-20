@@ -8,6 +8,8 @@ https://www.scse.uestc.edu.cn/js_sz.jsp?urltype=tree.TreeTempUrl&wbtreeid=1081
 
 当前公开数据快照日期为 2026-09-01。
 
+2026-09-21 使用 official-evidence-v2 规则，基于上述既有快照作 AI 辅助逐条复核，未重新抓取或声称验证官网现状。研究证据摘录与逐项判定公开在 data/rating-evidence.json，规则和变更统计见 docs/rating-v2-plan.md 与 docs/rating-v2-report.md。
+
 ## 数据边界
 
 - 仅整理学院官网公开事实，不合并第三方学术或评价网站。

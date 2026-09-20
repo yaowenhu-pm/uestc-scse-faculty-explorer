@@ -2,53 +2,51 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="UESTC SCSE Faculty Explorer 的分级方法、数据口径与免责声明。">
-  <meta name="theme-color" content="#ffffff">
-  <title>方法与数据边界 · UESTC SCSE Faculty Explorer</title>
+  <meta name="description" content="计算机学院教师目录：官网研究证据分级规则 v2、逐项证据与数据范围。">
+  <meta name="theme-color" content="#ffffff"><title>方法与数据 · 计算机学院教师目录</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <a class="skip-link" href="#method-content">跳转到方法与数据</a>
-  <header class="topbar">
-    <a class="brand" href="./" aria-label="教师目录首页"><small>电子科技大学</small><strong>计算机科学与工程学院</strong></a>
-    <nav aria-label="主导航"><a href="./#explore">教师目录</a><a class="nav-active" href="./methodology.html" aria-current="page">方法与数据</a></nav>
-  </header>
+  <header class="topbar"><a class="brand" href="./"><small>电子科技大学</small><strong>计算机科学与工程学院</strong></a><nav aria-label="主导航"><a href="./">教师目录</a><a class="nav-active" href="./methodology.html" aria-current="page">方法与数据</a></nav></header>
   <main id="method-content" class="prose-page">
-    <div class="prose-hero"><span class="kicker">METHOD & DATA</span><h1>方法与数据边界</h1><p>这不是教师能力排名，而是一套针对学院官网公开材料的证据强度标注。</p></div>
-    <article class="prose-card">
-      <h2>数据范围</h2>
-      <p>数据仅来自电子科技大学计算机科学与工程学院公开教师目录及教师详情页，不合并 Google Scholar、DBLP、ORCID 或第三方评价网站。当前快照日期为 2026-09-01，共 189 位教师。</p>
-      <p>公开网站不保存邮箱、电话、办公地点、完整履历、原始 HTML 或浏览器状态。联系方式请以教师官网最新页面为准。</p>
+    <div class="prose-hero"><span class="kicker">METHOD & DATA · V2</span><h1>等级从哪里来</h1><p>只标注官网研究证据的强度。默认按 S → E 排列，同等级按证据分降序。</p></div>
+    <article class="prose-card"><h2>先核对证据，再计算等级</h2>
+      <p>逐人阅读官网快照，提取项目、代表成果、研究荣誉及其时间。每项记录分档理由和原文摘录，再由固定规则计算分数。不设各级人数比例，不按页面长度、论文总量或头衔出现次数加分。</p>
+      <p>只认本人明确的角色：参与不等于主持，子课题不等于总项目，合作者的荣誉不算本人。论文必须能定位到具体作品；未说明含义的作者星号，不推定为通讯作者。同一个奖项或人才基金不重复计入不同主体维度。</p>
     </article>
-    <article class="prose-card">
-      <h2>等级规则</h2>
-      <div class="rubric-table-wrap">
-        <table class="rubric-table">
-          <caption class="sr-only">官网公开证据分级规则</caption>
-          <thead><tr><th scope="col">等级</th><th scope="col">区间</th><th scope="col">公开解释</th></tr></thead>
-          <tbody>
-            <tr><td><b class="badge grade-S">S</b></td><td>≥72</td><td>官网硬证据密集，且必须具备头部门槛信号。</td></tr>
-            <tr><td><b class="badge grade-A">A</b></td><td>62–71</td><td>项目或成果至少一项够硬，证据链较完整。</td></tr>
-            <tr><td><b class="badge grade-B">B</b></td><td>48–61</td><td>方向和产出已经成型，属于稳健选择。</td></tr>
-            <tr><td><b class="badge grade-C">C</b></td><td>32–47</td><td>方向明确，适合按研究匹配度判断。</td></tr>
-            <tr><td><b class="badge grade-D">D</b></td><td>16–31</td><td>官网项目、成果或荣誉支撑不足。</td></tr>
-            <tr><td><b class="badge grade-E">E</b></td><td>0–15</td><td>公开信息不足，不能据此否定教师本人。</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p>S 级除了达到 72 分，还必须在官网荣誉或任职字段中明确出现院士或同等级称号、国家级人才、Fellow/会士、国家级科技奖励之一。导师、合作者和引用对象的称号不会归到教师本人。</p>
+    <article class="prose-card"><h2>100 分构成</h2>
+      <div class="rubric-table-wrap"><table class="rubric-table"><caption class="sr-only">五个评分维度</caption><thead><tr><th>维度</th><th>分档</th><th>依据</th></tr></thead><tbody>
+        <tr><td>研究荣誉 · 30</td><td>0 / 6 / 12 / 22 / 30</td><td>从具名省部级科研奖励，到国家青年人才、资深人才或指定学会 Fellow，再到机构明确的国家科学院、工程院或皇家学会院士。奖励级别与本人排名均需有依据。</td></tr>
+        <tr><td>科研项目 · 25</td><td>0 / 4 / 10 / 17 / 25</td><td>可识别项目的参与记录；省部、企业项目主持或国家子课题；国家面上、青年项目主持或重点研发课题负责人；国家重点、重大项目或重点研发总项目负责人。取最高一档，不按数量累计。</td></tr>
+        <tr><td>代表成果 · 25</td><td>0 / 3 / 8 / 17 / 25</td><td>总量描述；具名作品但贡献不明；一篇符合场所口径且本人第一或通讯作者的作品；三篇独立符合条件的作品，或明确的个人领域研究成果奖。每篇分别取证。</td></tr>
+        <tr><td>近年记录 · 10</td><td>0 / 5 / 10</td><td>最新可定位科研年份：2017 年前或未注明为 0，2017–2021 年为 5，2022–2026 年为 10。进行中项目按明确结束年计，上限为快照年；不从教育、工作履历推断。</td></tr>
+        <tr><td>证据覆盖 · 10</td><td>0 / 5 / 10</td><td>研究荣誉、可识别项目、具名成果三类中，有一类为 5，至少两类为 10；仅发表总量不构成一类。</td></tr>
+      </tbody></table></div>
+      <p>教学奖、职称、行政职务、普通或高级会员不参与研究评分。博士后资助不自动视为国家青年人才。国家科研奖未明确本人排名，只按较低档记录；不满足高档门槛。</p>
     </article>
-    <article class="prose-card">
-      <h2>100 分构成</h2>
-      <ul><li>硬信号 30 分：国家级、国际头部人才或奖励信号。</li><li>项目 20 分：项目数量、级别和主持情况。</li><li>论文与成果 20 分：代表性成果和高水平发表。</li><li>荣誉与任职 20 分：奖励、学术兼职、负责人经历。</li><li>培养与合作 10 分：课程、招生、学生培养和工程合作。</li></ul>
+    <article class="prose-card"><h2>等级还需要满足门槛</h2>
+      <div class="rubric-table-wrap"><table class="rubric-table"><caption class="sr-only">分数与证据门槛共同决定等级</caption><thead><tr><th>等级</th><th>最低分</th><th>必要条件</th></tr></thead><tbody>
+        <tr><td><b class="badge grade-S">S</b></td><td>80</td><td>研究荣誉至少 22 分，且项目或代表成果至少 17 分。</td></tr>
+        <tr><td><b class="badge grade-A">A</b></td><td>60</td><td>研究荣誉至少 22 分、项目至少 17 分、代表成果至少 17 分，三项中至少满足两项。</td></tr>
+        <tr><td><b class="badge grade-B">B</b></td><td>35</td><td>项目至少 10 分，或代表成果至少 8 分。</td></tr>
+        <tr><td><b class="badge grade-C">C</b></td><td>15，或具体记录</td><td>达到 15 分，或已有可识别项目、具名成果或研究荣誉记录。</td></tr>
+        <tr><td><b class="badge grade-D">D</b></td><td>—</td><td>只有研究方向或成果总量等线索，尚不足以达到 C。</td></tr>
+        <tr><td><b class="badge grade-E">E</b></td><td>—</td><td>未见有效研究方向或研究证据，等待补充。</td></tr>
+      </tbody></table></div>
+      <p>取满足全部条件的最高等级。分数高但门槛未满足时，等级不会随分数直接上升；因此 A 级分数可能高于 S 级，页面仍先按等级排序。等级和分数只在本规则内可比。</p>
     </article>
-    <article class="prose-card warning-card">
-      <h2>重要免责声明</h2>
-      <p>官网资料多不必然代表教师更强，资料少也不代表教师能力弱。不同教师维护网页的积极程度、页面更新时间和字段结构存在明显差异。因此，本网站更适合作为“发现候选教师”的入口，不应代替阅读近期论文、联系在读学生或直接沟通。</p>
-      <p>本网站是独立信息索引，不代表电子科技大学或计算机科学与工程学院官方立场。教师信息如有变化，以学院官网为准。</p>
+    <article class="prose-card"><h2>作品场所与贡献</h2>
+      <p>代表成果采用项目公开的场所清单，以及能够明确核对的 CCF A 类目录记录。只有期刊名、顶会总量、影响因子或未说明贡献的论文列表，不能进入高档。论文列表里的本人英文全名、页面内可交叉核对的缩写或明确的通讯作者说明，均保留相应依据。</p>
+      <p>会议的 workshop、short、demo、findings 等记录不自动作为正式代表论文。场所分类是取证口径，不能证明单篇论文质量；跨学科作品及官网未充分说明的贡献仍可能被低估。完整清单、分档细节和复核流程见 <a href="https://github.com/yaowenhu-pm/uestc-scse-faculty-explorer/blob/main/docs/rating-v2-plan.md">完整规则</a>。</p>
     </article>
-    <a class="button primary" href="./#explore">返回教师检索</a>
+    <article class="prose-card"><h2>快照、复核与补充</h2>
+      <p>189 位教师的数据来自学院官网目录及详情页，快照为 2026-09-01。本次于 2026-09-21 采用 AI 辅助逐条复核并更新规则，没有重新抓取官网，也没有合并外部学术数据库。代码检查引文定位、评分门槛、字段边界和默认排序；语义判断仍可能出错。</p>
+      <p>未列出不代表没有，低等级也不代表教师水平低。这套标注不评价教学、指导体验或人格，不代替阅读近期论文与直接交流。不同网页的更新程度会影响结果。</p>
+      <p>欢迎通过 <a href="https://github.com/yaowenhu-pm/uestc-scse-faculty-explorer">GitHub Issue 或 PR</a> 补充官网链接、原文、时间和本人贡献说明；更正依据后可重算等级。公开数据不包含联系方式、完整履历和原始网页。</p>
+    </article>
+    <a class="button primary" href="./">返回教师目录</a>
   </main>
-  <footer class="site-footer"><a href="./">返回教师目录</a><a href="https://github.com/yaowenhu-pm/uestc-scse-faculty-explorer" target="_blank" rel="noreferrer">GitHub ↗</a></footer>
+  <footer class="site-footer"><a href="./">返回教师目录</a><a href="https://github.com/yaowenhu-pm/uestc-scse-faculty-explorer">GitHub ↗</a></footer>
 </body>
 </html>

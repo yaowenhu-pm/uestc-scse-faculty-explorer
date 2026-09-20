@@ -2,7 +2,7 @@ import { asArray, departmentOptions, filteredFaculty, GRADES, INITIAL_VISIBLE, L
 
 const state = { faculty: [], search: "", grade: "", department: "", title: "", sort: "score", visible: INITIAL_VISIBLE };
 const $ = (selector) => document.querySelector(selector);
-const componentLabels = { hardSignal: ["硬信号", 30], projects: ["项目", 20], publications: ["论文成果", 20], recognition: ["荣誉任职", 20], training: ["培养合作", 10] };
+const componentLabels = { hardSignal: ["研究荣誉", 30], projects: ["科研项目", 25], publications: ["代表成果", 25], recency: ["近年记录", 10], coverage: ["证据覆盖", 10] };
 const esc = (value) => String(value ?? "").replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" })[char]);
 const compactVerdict = (value) => String(value || "").replace(/^[SABCDE]｜[^：]+：/, "");
 let dialogOpener = null;
@@ -84,16 +84,28 @@ function openDialog(item, opener) {
     const percentage = Math.min(100, Math.max(0, Math.round(value / max * 100)));
     return `<div class="component-row"><span>${label}</span><div class="component-track"><div class="component-fill" style="width:${percentage}%"></div></div><b>${esc(value)}/${max}</b></div>`;
   }).join("");
-  const snippets = asArray(item.evidenceSnippets);
-  const evidence = snippets.length ? snippets.map((entry) => `<div class="evidence-item"><b>${esc(entry.type)}｜${esc(entry.conclusion)}</b><blockquote>${esc(entry.excerpt)}</blockquote></div>`).join("") : "<p>学院官网公开证据有限，暂无可展示摘录。</p>";
+  const snippets = [...asArray(item.evidenceSnippets).reduce((byQuote, entry) => {
+    const previous = byQuote.get(entry.excerpt);
+    if (previous) {
+      previous.type += ` · ${entry.type}`;
+      if (!previous.conclusion.includes(entry.conclusion)) previous.conclusion += ` ${entry.conclusion}`;
+    } else byQuote.set(entry.excerpt, { ...entry });
+    return byQuote;
+  }, new Map()).values()];
+  const groups = [...snippets.reduce((byReason, entry) => {
+    const key = JSON.stringify([entry.type, entry.conclusion]);
+    if (!byReason.has(key)) byReason.set(key, { ...entry, excerpts: [] });
+    byReason.get(key).excerpts.push(entry.excerpt);
+    return byReason;
+  }, new Map()).values()];
+  const evidence = groups.length ? groups.map((entry) => `<div class="evidence-item"><b>${esc(entry.type)}｜${esc(entry.conclusion)}</b>${entry.excerpts.map(excerpt => `<blockquote>${esc(excerpt)}</blockquote>`).join("")}</div>`).join("") : "<p>学院官网公开证据有限，暂无可展示摘录。</p>";
   const profileUrl = safeProfileUrl(item.profileUrl);
   $("#dialog-content").innerHTML = `<div class="dialog-hero"><div><span class="kicker">教师公开资料</span><h2 id="dialog-name">${esc(item.name)}</h2><p>${esc(item.title)} · ${esc(asArray(item.departments).join(" / ") || "院系官网未列出")}</p></div><div class="dialog-grade grade-${grade}" aria-label="公开证据 ${grade} 级">${grade}</div></div>
     <div class="dialog-body"><div class="score-line"><strong>${esc(item.evidenceScore)}</strong><span>/ 100 · ${esc(item.evidenceLabel)}</span></div><p>${esc(compactVerdict(item.verdict))}</p>
       <div class="component-list">${components}</div>
       <section class="dialog-section"><h3>研究方向</h3><div class="keywords">${[...new Set([...asArray(item.researchDirections), ...asArray(item.focusKeywords)])].map((keyword) => `<span>${esc(keyword)}</span>`).join("") || "<span>官网未明确列出</span>"}</div></section>
-      <section class="dialog-section"><h3>硬核信号</h3>${asArray(item.hardSignals).length ? `<ul>${item.hardSignals.map((signal) => `<li>${esc(signal)}</li>`).join("")}</ul>` : "<p>官网未出现可核验的国家级或国际头部门槛信号。</p>"}</section>
       <section class="dialog-section"><h3>主要局限</h3><ul>${asArray(item.limitations).map((text) => `<li>${esc(text)}</li>`).join("")}</ul></section>
-      <section class="dialog-section"><h3>官网依据摘录</h3>${evidence}</section>
+      <section class="dialog-section"><h3>官网依据摘录</h3><p>官网快照 ${esc(item.sourceDate)} · 规则 v2 · ${esc(item.reviewStatus)}</p>${evidence}</section>
       <div class="dialog-actions">${profileUrl ? `<a class="button primary" href="${esc(profileUrl)}" target="_blank" rel="noopener noreferrer">打开教师官网 ↗</a>` : ""}<a class="button secondary" href="./methodology.html">查看评分方法</a></div>
     </div>`;
   $("#faculty-dialog").showModal();
