@@ -1,5 +1,5 @@
-import { asArray, departmentOptions, filteredFaculty, GRADES, INITIAL_VISIBLE, LOAD_INCREMENT, normalizeFilters, researchSummary, titleOptions } from "./faculty.js";
-import { displayGrade, GRADE_FILTER_OPTIONS, gradeFilterLabel, subgradeOf } from "./grade-bands.js";
+import { asArray, departmentOptions, filteredFaculty, GRADES, INITIAL_VISIBLE, LOAD_INCREMENT, normalizeFilters, researchSummary, titleOptions } from "./faculty.js?v=subgrades-v1";
+import { displayGrade, GRADE_FILTER_OPTIONS, gradeFilterLabel, subgradeOf } from "./grade-bands.js?v=subgrades-v1";
 
 const state = { faculty: [], search: "", grade: "", department: "", title: "", sort: "score", visible: INITIAL_VISIBLE };
 const $ = (selector) => document.querySelector(selector);
@@ -171,7 +171,7 @@ function bindControls() {
 }
 
 async function init() {
-  const response = await fetch("./data/faculty.public.json");
+  const response = await fetch("./data/faculty.public.json", { cache: "no-cache" });
   if (!response.ok) throw new Error("数据加载失败");
   state.faculty = await response.json();
   if (!Array.isArray(state.faculty)) throw new Error("数据格式错误");
