@@ -27,7 +27,7 @@ jobs:
       - name: Assemble public artifact from allowlist
         run: |
           mkdir -p _site/data
-          cp index.html methodology.html 404.html styles.css app.js DATA_NOTICE.md _site/
+          cp index.html methodology.html 404.html styles.css app.js faculty.js DATA_NOTICE.md _site/
           cp data/*.json _site/data/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

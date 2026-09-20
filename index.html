@@ -3,66 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="从研究方向出发，探索电子科技大学计算机科学与工程学院 189 位教师的公开成果与学术经历。">
-  <meta name="theme-color" content="#f6f8fc">
-  <title>教师研究导航 · UESTC SCSE Faculty Explorer</title>
+  <meta name="description" content="检索电子科技大学计算机科学与工程学院教师的研究方向与公开证据。">
+  <meta name="theme-color" content="#ffffff">
+  <title>教师目录 · 电子科技大学计算机科学与工程学院</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <a class="skip-link" href="#explore">跳转到教师检索</a>
   <header class="topbar">
-    <a class="brand" href="./" aria-label="教师研究导航首页">
-      <span class="brand-mark" aria-hidden="true">U<span>.</span></span>
-      <span><strong>教师研究导航</strong><small>UESTC · SCSE</small></span>
-    </a>
-    <nav aria-label="主导航"><a class="nav-active" href="#explore" aria-current="page">教师检索</a><a href="./methodology.html">方法与数据</a></nav>
-    <a class="official-link" href="https://www.scse.uestc.edu.cn/js_sz.jsp?urltype=tree.TreeTempUrl&amp;wbtreeid=1081" target="_blank" rel="noreferrer">学院官网 <span aria-hidden="true">↗</span></a>
+    <a class="brand" href="./" aria-label="教师目录首页"><small>电子科技大学</small><strong>计算机科学与工程学院</strong></a>
+    <nav aria-label="主导航">
+      <a class="nav-active" href="#explore" aria-current="page">教师目录</a>
+      <a href="https://www.scse.uestc.edu.cn/js_sz.jsp?urltype=tree.TreeTempUrl&amp;wbtreeid=1081" target="_blank" rel="noreferrer">学院官网 <span aria-hidden="true">↗</span></a>
+    </nav>
   </header>
-  <main class="page-shell">
-    <section class="intro" aria-labelledby="page-title">
-      <div class="intro-copy"><p class="eyebrow">电子科技大学 <span>/</span> 计算机科学与工程学院</p><h1 id="page-title">从研究方向，<span>找到同行者。</span></h1><p class="intro-description">探索教师的研究方向、公开成果与学术经历。</p></div>
-      <div class="overview" aria-label="数据概况"><div class="overview-main"><strong id="stat-total">—</strong><span>位教师<br><small>学院公开目录</small></span></div><div class="overview-detail"><span><b id="stat-s">—</b> S 级</span><span><b id="stat-a">—</b> A 级</span><span><b id="stat-review">—</b> 待补资料</span></div></div>
-    </section>
-    <section id="explore" class="explorer" aria-label="教师检索">
-      <aside class="sidebar">
-        <details id="filter-panel" class="filter-panel" open>
-          <summary>筛选教师 <span id="filter-summary">全部条件</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg></summary>
-          <div class="filter-body">
-            <div class="sidebar-heading"><h2>筛选条件</h2><button id="reset-filters" class="text-button" type="button">重置</button></div>
-            <div class="filter-group"><h3>官网证据等级 <a href="./methodology.html" aria-label="了解官网证据等级">?</a></h3>
-              <div id="grade-filter" class="grade-filter" aria-label="按等级筛选">
-                <button class="active" data-grade="" aria-pressed="true" type="button">全部等级 <span class="filter-count">—</span></button>
-                <button data-grade="S" aria-pressed="false" type="button"><span class="grade-dot grade-S"></span>S 级 <span class="filter-count">—</span></button>
-                <button data-grade="A" aria-pressed="false" type="button"><span class="grade-dot grade-A"></span>A 级 <span class="filter-count">—</span></button>
-                <button data-grade="B" aria-pressed="false" type="button"><span class="grade-dot grade-B"></span>B 级 <span class="filter-count">—</span></button>
-                <button data-grade="C" aria-pressed="false" type="button"><span class="grade-dot grade-C"></span>C 级 <span class="filter-count">—</span></button>
-                <button data-grade="D" aria-pressed="false" type="button"><span class="grade-dot grade-D"></span>D 级 <span class="filter-count">—</span></button>
-                <button data-grade="E" aria-pressed="false" type="button"><span class="grade-dot grade-E"></span>E 级 <span class="filter-count">—</span></button>
-              </div>
-            </div>
-            <div class="filter-group select-group"><label for="department">所属院系</label><select id="department" aria-label="按院系筛选"><option value="">全部院系</option></select><label for="title">职称</label><select id="title" aria-label="按职称筛选"><option value="">全部职称</option></select></div>
-          </div>
-        </details>
-        <div class="evidence-note"><span class="note-icon" aria-hidden="true">i</span><h3>让证据帮助判断</h3><p>等级反映官网资料的证据强度。选择教师时，研究匹配度比字母等级更重要。</p><a href="#method">了解分级方法 <span aria-hidden="true">↗</span></a></div>
-      </aside>
-      <div class="results-panel">
-        <div class="search-row"><label class="search-field"><span class="sr-only">搜索教师或研究方向</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg><input id="search" type="search" placeholder="搜索姓名、研究方向或关键词" autocomplete="off"></label></div>
-        <div class="results-meta"><div class="results-heading"><h2 tabindex="-1">教师目录</h2><strong id="result-count" role="status" aria-live="polite">正在加载…</strong></div><label class="sort-field"><span>排序</span><select id="sort" aria-label="排序方式"><option value="score">证据强度</option><option value="name">姓名拼音</option><option value="directory">学院目录</option></select></label></div>
-        <p class="results-caption">依据学院官网公开信息整理 · <span id="snapshot-date">2026-09-01</span> 快照</p>
-        <div id="active-filters" class="active-filters" aria-label="当前筛选条件" hidden></div>
-        <div id="faculty-grid" class="faculty-grid" aria-busy="true"><div class="loading-state">正在载入教师资料…</div></div>
-        <div class="pagination"><span id="display-count"></span><button id="load-more" class="button load-more" type="button" hidden>加载更多教师 <span aria-hidden="true">↓</span></button></div>
+  <main id="explore" class="page-shell">
+    <div class="directory-toolbar">
+      <div class="results-heading"><h1 id="results-title" tabindex="-1">教师目录</h1><span id="result-count" role="status" aria-live="polite">正在加载…</span></div>
+      <div class="search-controls" role="search" aria-label="检索教师">
+        <label class="search-field">
+          <span class="sr-only">搜索姓名或研究方向</span>
+          <input id="search" type="search" placeholder="搜索姓名或研究方向" autocomplete="off">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+        </label>
+        <label class="select-field"><span class="sr-only">按职称筛选</span><select id="title"><option value="">全部职称</option></select></label>
+        <label class="select-field"><span class="sr-only">按证据等级筛选</span><select id="grade"><option value="">证据等级</option><option value="S">S 级</option><option value="A">A 级</option><option value="B">B 级</option><option value="C">C 级</option><option value="D">D 级</option><option value="E">E 级</option></select></label>
       </div>
-    </section>
-    <section id="method" class="method-section" aria-labelledby="method-title">
-      <div class="method-intro"><span class="kicker">METHOD & EVIDENCE</span><h2 id="method-title">每个等级，都有依据。</h2><p>100 分，五个可追溯维度。S 级还需具备明确的国家级或国际头部信号。</p><a href="./methodology.html" class="inline-link">查看完整分级方法 <span aria-hidden="true">↗</span></a></div>
-      <div class="score-grid"><article><span>硬信号</span><strong>30<small>分</small></strong></article><article><span>项目</span><strong>20<small>分</small></strong></article><article><span>论文成果</span><strong>20<small>分</small></strong></article><article><span>荣誉任职</span><strong>20<small>分</small></strong></article><article><span>培养合作</span><strong>10<small>分</small></strong></article></div>
-      <p class="method-disclaimer">等级仅反映官网公开证据，不评价教学质量、人格或真实学术能力。</p>
-    </section>
+    </div>
+    <div class="department-row">
+      <div id="department-filter" class="department-filter" role="group" aria-label="按院系筛选"></div>
+      <label class="sort-field"><span class="sr-only">排序方式</span><select id="sort"><option value="score">按等级排序 ↓</option><option value="name">按姓名排序</option><option value="directory">按学院目录</option></select></label>
+    </div>
+    <div class="filter-feedback"><div id="active-filters" class="active-filters" aria-label="当前筛选条件" hidden></div><button id="reset-filters" class="text-button" type="button" hidden>清空筛选</button></div>
+    <div id="faculty-grid" class="faculty-grid" aria-busy="true"><div class="loading-state">正在载入教师资料…</div></div>
+    <div class="pagination"><span id="display-count" class="sr-only" role="status"></span><button id="load-more" class="button load-more" type="button" hidden>加载更多 <span aria-hidden="true">↓</span></button></div>
+    <noscript><p class="empty-state">请启用 JavaScript 以搜索教师，或访问<a href="https://www.scse.uestc.edu.cn/js_sz.jsp?urltype=tree.TreeTempUrl&amp;wbtreeid=1081">学院官网</a>。</p></noscript>
   </main>
-  <footer><div><strong>UESTC · SCSE <span>Faculty Explorer</span></strong><p>独立信息索引 · 非学院官方网站 · 信息以教师官网为准</p></div><div><a href="./methodology.html">数据说明</a><a href="https://github.com/yaowenhu-pm/uestc-scse-faculty-explorer" target="_blank" rel="noreferrer">GitHub ↗</a></div></footer>
+  <footer class="site-footer"><a href="https://www.scse.uestc.edu.cn/js_sz.jsp?urltype=tree.TreeTempUrl&amp;wbtreeid=1081" target="_blank" rel="noreferrer">来源：学院官网</a><a href="./methodology.html">等级仅反映公开证据</a></footer>
   <dialog id="faculty-dialog" aria-labelledby="dialog-name"><button id="dialog-close" class="dialog-close" aria-label="关闭详情" type="button">×</button><div id="dialog-content"></div></dialog>
-  <template id="empty-template"><div class="empty-state"><span class="empty-icon" aria-hidden="true">⌕</span><strong>没有找到匹配的教师</strong><p>试试其他研究关键词，或移除部分筛选条件。</p><button class="button secondary" type="button" data-reset>清空筛选条件</button></div></template>
+  <template id="empty-template"><div class="empty-state"><strong>没有找到匹配的教师</strong><p>试试其他关键词，或清空筛选。</p><button class="button secondary" type="button" data-reset>清空筛选</button></div></template>
   <script type="module" src="./app.js"></script>
 </body>
 </html>

@@ -4,6 +4,8 @@
 
 本项目将学院官网公开的教师目录、研究方向、项目、成果和荣誉整理为可搜索、可筛选的静态网站。S/A/B/C/D/E 是“官网证据强度等级”，不是教师能力、人格或教学质量排名。
 
+界面采用三列教师目录，支持搜索、院系/职称/等级组合筛选和教师证据详情。默认按等级排序，同等级按证据分降序。设计依据与完整实施步骤见 [界面实现方案](./docs/implementation-plan.md)。
+
 ## 本地运行
 
 需要 Node.js 22+：
@@ -36,7 +38,7 @@ npm run validate
 - `methodology.html`
 - `404.html`
 - `styles.css`
-- `app.js`
+- `app.js`、`faculty.js`
 - `data/*.json`
 - `DATA_NOTICE.md`
 
