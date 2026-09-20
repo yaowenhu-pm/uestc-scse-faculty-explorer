@@ -77,14 +77,11 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 .grade-E { color: #707777; background: #f0f2f2; }
 .card-department { margin: 0; color: var(--muted); font-size: 14px; line-height: 22px; overflow-wrap: anywhere; }
 .card-research { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; margin: 26px 0 0; font-size: 16px; line-height: 28px; overflow-wrap: anywhere; }
-.pagination { display: flex; justify-content: center; }
-.pagination:has(#load-more:not([hidden])) { margin-top: 28px; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; padding: 10px 20px; border: 1px solid transparent; border-radius: 8px; font-size: 14px; line-height: 1.6; cursor: pointer; }
 .primary { background: var(--blue); color: #fff; }
 .primary:hover { background: var(--blue-dark); }
-.secondary, .load-more { background: #fff; border-color: var(--line); color: var(--blue); }
-.secondary:hover, .load-more:hover { background: #f3f8f6; border-color: #aac4bd; }
-.load-more { min-width: 144px; }
+.secondary { background: #fff; border-color: var(--line); color: var(--blue); }
+.secondary:hover { background: #f3f8f6; border-color: #aac4bd; }
 .empty-state, .loading-state { grid-column: 1 / -1; padding: 64px 24px; border: 1px dashed var(--line); border-radius: var(--radius); text-align: center; color: var(--muted); }
 .empty-state strong { color: var(--ink); font-size: 18px; font-weight: 600; }
 .empty-state p { font-size: 14px; margin: 10px 0 20px; }

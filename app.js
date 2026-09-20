@@ -1,7 +1,7 @@
-import { asArray, departmentOptions, filteredFaculty, GRADES, INITIAL_VISIBLE, LOAD_INCREMENT, normalizeFilters, researchSummary, titleOptions } from "./faculty.js?v=subgrades-v2";
+import { asArray, departmentOptions, filteredFaculty, GRADES, normalizeFilters, researchSummary, titleOptions } from "./faculty.js?v=full-list-v1";
 import { displayGrade, GRADE_FILTER_OPTIONS, gradeFilterLabel, subgradeOf } from "./grade-bands.js?v=subgrades-v2";
 
-const state = { faculty: [], search: "", grade: "", department: "", title: "", sort: "score", visible: INITIAL_VISIBLE };
+const state = { faculty: [], search: "", grade: "", department: "", title: "", sort: "score" };
 const $ = (selector) => document.querySelector(selector);
 const componentLabels = { hardSignal: ["研究荣誉", 30], projects: ["科研项目", 25], publications: ["代表成果", 25], recency: ["近年记录", 10], coverage: ["证据覆盖", 10] };
 const esc = (value) => String(value ?? "").replace(/[&<>'"]/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;" })[char]);
@@ -16,7 +16,7 @@ function updateUrl() {
 
 function readUrl() {
   const params = new URLSearchParams(location.search);
-  Object.assign(state, normalizeFilters(state.faculty, Object.fromEntries(params)), { visible: INITIAL_VISIBLE });
+  Object.assign(state, normalizeFilters(state.faculty, Object.fromEntries(params)));
   syncControls();
 }
 
@@ -38,11 +38,8 @@ function renderCard(item) {
 
 function renderFaculty() {
   const result = filteredFaculty(state.faculty, state);
-  const visible = result.slice(0, state.visible);
   $("#result-count").textContent = `${result.length} 位教师`;
-  $("#faculty-grid").innerHTML = visible.length ? visible.map(renderCard).join("") : $("#empty-template").innerHTML;
-  $("#load-more").hidden = visible.length >= result.length;
-  $("#display-count").textContent = result.length ? `${visible.length} / ${result.length}` : "";
+  $("#faculty-grid").innerHTML = result.length ? result.map(renderCard).join("") : $("#empty-template").innerHTML;
   $("#faculty-grid").setAttribute("aria-busy", "false");
   renderFilterState();
   updateUrl();
@@ -64,7 +61,7 @@ function renderFilterState() {
 }
 
 function resetFilters() {
-  Object.assign(state, { search: "", grade: "", department: "", title: "", sort: "score", visible: INITIAL_VISIBLE });
+  Object.assign(state, { search: "", grade: "", department: "", title: "", sort: "score" });
   syncControls();
   renderFaculty();
 }
@@ -123,13 +120,12 @@ function populateFilters() {
 }
 
 function bindControls() {
-  $("#search").addEventListener("input", (event) => { state.search = event.target.value; state.visible = INITIAL_VISIBLE; renderFaculty(); });
-  ["grade", "title", "sort"].forEach((id) => $("#" + id).addEventListener("change", (event) => { state[id] = event.target.value; state.visible = INITIAL_VISIBLE; renderFaculty(); }));
+  $("#search").addEventListener("input", (event) => { state.search = event.target.value; renderFaculty(); });
+  ["grade", "title", "sort"].forEach((id) => $("#" + id).addEventListener("change", (event) => { state[id] = event.target.value; renderFaculty(); }));
   $("#department-filter").addEventListener("click", (event) => {
     const button = event.target.closest("button[data-department]");
     if (!button) return;
     state.department = button.dataset.department;
-    state.visible = INITIAL_VISIBLE;
     renderFaculty();
   });
   $("#reset-filters").addEventListener("click", () => { resetFilters(); $("#results-title").focus({ preventScroll: true }); });
@@ -146,16 +142,9 @@ function bindControls() {
     const button = event.target.closest("button[data-clear]");
     if (!button || !["search", "grade", "department", "title"].includes(button.dataset.clear)) return;
     state[button.dataset.clear] = "";
-    state.visible = INITIAL_VISIBLE;
     syncControls();
     renderFaculty();
     ($("#active-filters button") || $("#results-title")).focus({ preventScroll: true });
-  });
-  $("#load-more").addEventListener("click", () => {
-    const firstNew = state.visible;
-    state.visible += LOAD_INCREMENT;
-    renderFaculty();
-    document.querySelectorAll(".faculty-card")[firstNew]?.focus({ preventScroll: true });
   });
   $("#dialog-close").addEventListener("click", () => $("#faculty-dialog").close());
   $("#faculty-dialog").addEventListener("click", (event) => {
@@ -184,8 +173,6 @@ async function init() {
 init().catch(() => {
   $("#result-count").textContent = "暂时无法加载";
   $("#faculty-grid").setAttribute("aria-busy", "false");
-  $("#load-more").hidden = true;
-  $("#display-count").textContent = "";
   $("#faculty-grid").innerHTML = `<div class="empty-state"><strong>教师资料暂时无法加载</strong><p>请检查网络连接后重试。</p><button class="button secondary" id="retry-load" type="button">重新加载</button></div>`;
   $("#retry-load").addEventListener("click", () => location.reload());
 });

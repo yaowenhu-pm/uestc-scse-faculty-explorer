@@ -1,7 +1,5 @@
 import { GRADES, matchesGrade, validGradeFilter } from "./grade-bands.js?v=subgrades-v2";
 export { GRADES } from "./grade-bands.js?v=subgrades-v2";
-export const INITIAL_VISIBLE = 6;
-export const LOAD_INCREMENT = 12;
 export const MISSING_DEPARTMENT = "官网未列出";
 const SORTS = ["score", "name", "directory"];
 const DEPARTMENT_ORDER = ["计算机工程与应用系", "计算机软件与理论系", "信息安全系", "实验中心", "计算机国家级实验教学示范中心"];
