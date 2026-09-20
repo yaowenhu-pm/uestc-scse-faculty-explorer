@@ -3,12 +3,18 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="UESTC SCSE Faculty Explorer 的分级方法、数据口径与免责声明。">
+  <meta name="theme-color" content="#f6f8fc">
   <title>方法与数据边界 · UESTC SCSE Faculty Explorer</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header class="topbar"><a class="brand" href="./"><span class="brand-mark">U</span><span><strong>Faculty Explorer</strong><small>UESTC · SCSE</small></span></a><nav><a href="./#explore">教师检索</a><a href="./">返回首页</a></nav></header>
-  <main class="prose-page">
+  <a class="skip-link" href="#method-content">跳转到方法与数据</a>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="教师研究导航首页"><span class="brand-mark" aria-hidden="true">U<span>.</span></span><span><strong>教师研究导航</strong><small>UESTC · SCSE</small></span></a>
+    <nav aria-label="主导航"><a href="./#explore">教师检索</a><a class="nav-active" href="./methodology.html" aria-current="page">方法与数据</a></nav>
+    <a class="official-link" href="https://www.scse.uestc.edu.cn/js_sz.jsp?urltype=tree.TreeTempUrl&amp;wbtreeid=1081" target="_blank" rel="noreferrer">学院官网 <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="method-content" class="prose-page">
     <div class="prose-hero"><span class="kicker">METHOD & DATA</span><h1>方法与数据边界</h1><p>这不是教师能力排名，而是一套针对学院官网公开材料的证据强度标注。</p></div>
     <article class="prose-card">
       <h2>数据范围</h2>
@@ -17,14 +23,19 @@
     </article>
     <article class="prose-card">
       <h2>等级规则</h2>
-      <div class="rubric-table" role="table" aria-label="分级规则">
-        <div class="rubric-row header" role="row"><span>等级</span><span>区间</span><span>公开解释</span></div>
-        <div class="rubric-row" role="row"><b class="badge grade-S">S</b><span>≥72</span><span>官网硬证据密集，且必须具备头部门槛信号。</span></div>
-        <div class="rubric-row" role="row"><b class="badge grade-A">A</b><span>62–71</span><span>项目或成果至少一项够硬，证据链较完整。</span></div>
-        <div class="rubric-row" role="row"><b class="badge grade-B">B</b><span>48–61</span><span>方向和产出已经成型，属于稳健选择。</span></div>
-        <div class="rubric-row" role="row"><b class="badge grade-C">C</b><span>32–47</span><span>方向明确，适合按研究匹配度判断。</span></div>
-        <div class="rubric-row" role="row"><b class="badge grade-D">D</b><span>16–31</span><span>官网项目、成果或荣誉支撑不足。</span></div>
-        <div class="rubric-row" role="row"><b class="badge grade-E">E</b><span>0–15</span><span>公开信息不足，不能据此否定教师本人。</span></div>
+      <div class="rubric-table-wrap">
+        <table class="rubric-table">
+          <caption class="sr-only">官网公开证据分级规则</caption>
+          <thead><tr><th scope="col">等级</th><th scope="col">区间</th><th scope="col">公开解释</th></tr></thead>
+          <tbody>
+            <tr><td><b class="badge grade-S">S</b></td><td>≥72</td><td>官网硬证据密集，且必须具备头部门槛信号。</td></tr>
+            <tr><td><b class="badge grade-A">A</b></td><td>62–71</td><td>项目或成果至少一项够硬，证据链较完整。</td></tr>
+            <tr><td><b class="badge grade-B">B</b></td><td>48–61</td><td>方向和产出已经成型，属于稳健选择。</td></tr>
+            <tr><td><b class="badge grade-C">C</b></td><td>32–47</td><td>方向明确，适合按研究匹配度判断。</td></tr>
+            <tr><td><b class="badge grade-D">D</b></td><td>16–31</td><td>官网项目、成果或荣誉支撑不足。</td></tr>
+            <tr><td><b class="badge grade-E">E</b></td><td>0–15</td><td>公开信息不足，不能据此否定教师本人。</td></tr>
+          </tbody>
+        </table>
       </div>
       <p>S 级除了达到 72 分，还必须在官网荣誉或任职字段中明确出现院士或同等级称号、国家级人才、Fellow/会士、国家级科技奖励之一。导师、合作者和引用对象的称号不会归到教师本人。</p>
     </article>
@@ -39,6 +50,6 @@
     </article>
     <a class="button primary" href="./#explore">返回教师检索</a>
   </main>
-  <footer><div><strong>UESTC SCSE Faculty Explorer</strong><p>数据来自学院官网公开页面。</p></div></footer>
+  <footer><div><strong>UESTC · SCSE <span>Faculty Explorer</span></strong><p>独立信息索引 · 非学院官方网站 · 信息以教师官网为准</p></div><div><a href="./#explore">教师检索</a><a href="https://github.com/yaowenhu-pm/uestc-scse-faculty-explorer" target="_blank" rel="noreferrer">GitHub ↗</a></div></footer>
 </body>
 </html>
