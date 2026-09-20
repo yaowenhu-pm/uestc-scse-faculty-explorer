@@ -1,4 +1,5 @@
 import { asArray, departmentOptions, filteredFaculty, GRADES, INITIAL_VISIBLE, LOAD_INCREMENT, normalizeFilters, researchSummary, titleOptions } from "./faculty.js";
+import { displayGrade, GRADE_FILTER_OPTIONS, gradeFilterLabel, subgradeOf } from "./grade-bands.js";
 
 const state = { faculty: [], search: "", grade: "", department: "", title: "", sort: "score", visible: INITIAL_VISIBLE };
 const $ = (selector) => document.querySelector(selector);
@@ -25,10 +26,11 @@ function syncControls() {
 
 function renderCard(item) {
   const grade = GRADES.includes(item.evidenceGrade) ? item.evidenceGrade : "";
+  const badge = displayGrade(subgradeOf(item));
   const directions = researchSummary(item);
   const research = (directions.length > 2 ? [directions.slice(0, 2).join(" · "), directions[2]] : directions).map(esc).join("<br>");
   return `<article class="faculty-card" tabindex="0" role="button" aria-label="查看${esc(item.name)}的证据详情" data-id="${esc(item.profileId)}" data-grade="${grade}">
-    <div class="card-top"><div class="card-identity"><h2>${esc(item.name)}</h2><span class="card-title">${esc(item.title)}</span></div><b class="badge grade-${grade}" aria-label="公开证据 ${grade} 级">${grade}</b></div>
+    <div class="card-top"><div class="card-identity"><h2>${esc(item.name)}</h2><span class="card-title">${esc(item.title)}</span></div><b class="badge grade-${grade}" aria-label="公开证据 ${badge} 级">${badge}</b></div>
     <p class="card-department">${esc(asArray(item.departments).join(" / ") || "院系官网未列出")}</p>
     <p class="card-research">${research || "官网未列研究方向"}</p>
   </article>`;
@@ -56,7 +58,7 @@ function renderFilterState() {
   $("#reset-filters").hidden = !active.length && state.sort === "score";
   $("#active-filters").hidden = !active.length;
   $("#active-filters").innerHTML = active.map((key) => {
-    const label = key === "search" ? `搜索：${state[key]}` : key === "grade" ? `${state[key]} 级` : state[key];
+    const label = key === "search" ? `搜索：${state[key]}` : key === "grade" ? gradeFilterLabel(state[key]) : state[key];
     return `<button type="button" data-clear="${key}" aria-label="移除筛选：${esc(label)}">${esc(label)}<span aria-hidden="true">×</span></button>`;
   }).join("");
 }
@@ -78,6 +80,7 @@ function openDialog(item, opener) {
   if (!item) return;
   dialogOpener = opener;
   const grade = GRADES.includes(item.evidenceGrade) ? item.evidenceGrade : "";
+  const badge = displayGrade(subgradeOf(item));
   const components = Object.entries(item.scoreComponents || {}).filter(([key]) => componentLabels[key]).map(([key, rawValue]) => {
     const [label, max] = componentLabels[key];
     const value = Number.isFinite(Number(rawValue)) ? Number(rawValue) : 0;
@@ -100,7 +103,7 @@ function openDialog(item, opener) {
   }, new Map()).values()];
   const evidence = groups.length ? groups.map((entry) => `<div class="evidence-item"><b>${esc(entry.type)}｜${esc(entry.conclusion)}</b>${entry.excerpts.map(excerpt => `<blockquote>${esc(excerpt)}</blockquote>`).join("")}</div>`).join("") : "<p>学院官网公开证据有限，暂无可展示摘录。</p>";
   const profileUrl = safeProfileUrl(item.profileUrl);
-  $("#dialog-content").innerHTML = `<div class="dialog-hero"><div><span class="kicker">教师公开资料</span><h2 id="dialog-name">${esc(item.name)}</h2><p>${esc(item.title)} · ${esc(asArray(item.departments).join(" / ") || "院系官网未列出")}</p></div><div class="dialog-grade grade-${grade}" aria-label="公开证据 ${grade} 级">${grade}</div></div>
+  $("#dialog-content").innerHTML = `<div class="dialog-hero"><div><span class="kicker">教师公开资料</span><h2 id="dialog-name">${esc(item.name)}</h2><p>${esc(item.title)} · ${esc(asArray(item.departments).join(" / ") || "院系官网未列出")}</p></div><div class="dialog-grade grade-${grade}" aria-label="公开证据 ${badge} 级">${badge}</div></div>
     <div class="dialog-body"><div class="score-line"><strong>${esc(item.evidenceScore)}</strong><span>/ 100 · ${esc(item.evidenceLabel)}</span></div><p>${esc(compactVerdict(item.verdict))}</p>
       <div class="component-list">${components}</div>
       <section class="dialog-section"><h3>研究方向</h3><div class="keywords">${[...new Set([...asArray(item.researchDirections), ...asArray(item.focusKeywords)])].map((keyword) => `<span>${esc(keyword)}</span>`).join("") || "<span>官网未明确列出</span>"}</div></section>
@@ -114,6 +117,7 @@ function openDialog(item, opener) {
 }
 
 function populateFilters() {
+  $("#grade").innerHTML = `<option value="">证据等级</option>${GRADE_FILTER_OPTIONS.map(({ value, label }) => `<option value="${esc(value)}">${esc(label)}</option>`).join("")}`;
   $("#department-filter").innerHTML = ["", ...departmentOptions(state.faculty)].map((value) => `<button class="department-tab" type="button" data-department="${esc(value)}" aria-pressed="false">${esc(value || "全部")}</button>`).join("");
   $("#title").innerHTML = `<option value="">全部职称</option>${titleOptions(state.faculty).map((value) => `<option value="${esc(value)}">${esc(value)}</option>`).join("")}`;
 }

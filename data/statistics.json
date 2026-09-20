@@ -10,6 +10,19 @@
     "D": 3,
     "E": 26
   },
+  "subgradeDistribution": {
+    "S": 2,
+    "A+": 2,
+    "A": 10,
+    "A-": 14,
+    "B+": 10,
+    "B": 53,
+    "B-": 33,
+    "C": 36,
+    "D": 3,
+    "E": 26
+  },
+  "subgradeVersion": "subgrades-v1",
   "departmentDistribution": {
     "计算机软件与理论系": 76,
     "计算机工程与应用系": 40,

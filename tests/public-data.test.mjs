@@ -24,6 +24,7 @@ test("all published scores and gates reproduce from reviewed evidence", async ()
   for (const item of faculty) {
     const expected = rateAssessment(byId.get(item.profileId), item);
     assert.equal(item.evidenceGrade, expected.evidenceGrade);
+    assert.equal(item.evidenceSubgrade, expected.evidenceSubgrade);
     assert.equal(item.evidenceScore, expected.evidenceScore);
     assert.deepEqual(item.ratingBasis, expected.ratingBasis);
   }

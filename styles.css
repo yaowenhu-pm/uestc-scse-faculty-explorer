@@ -68,7 +68,7 @@ button, a, input, select { -webkit-tap-highlight-color: transparent; }
 .card-identity { display: flex; align-items: baseline; flex-wrap: wrap; gap: 2px 14px; min-width: 0; }
 .card-identity h2 { margin: 0; color: var(--ink); font-size: 22px; font-weight: 700; line-height: 1.5; overflow-wrap: anywhere; }
 .card-title { color: var(--muted); font-size: 14px; }
-.badge { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 40px; min-width: 40px; height: 40px; padding: 0 9px; border-radius: 8px; font-family: system-ui, sans-serif; font-size: 22px; line-height: 1; font-weight: 600; }
+.badge { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; min-width: 44px; height: 40px; padding: 0 7px; border-radius: 8px; font-family: system-ui, sans-serif; font-size: 22px; line-height: 1; font-weight: 600; }
 .grade-S { color: #927135; background: #f3eddc; }
 .grade-A { color: #327b74; background: #e8f2ef; }
 .grade-B { color: #506f8d; background: #edf1f6; }

@@ -20,6 +20,7 @@
       "大数据管理"
     ],
     "evidenceGrade": "S",
+    "evidenceSubgrade": "S",
     "evidenceScore": 84,
     "evidenceLabel": "高强度研究证据",
     "scoreComponents": {
@@ -104,6 +105,7 @@
       "人工智能"
     ],
     "evidenceGrade": "S",
+    "evidenceSubgrade": "S",
     "evidenceScore": 83,
     "evidenceLabel": "高强度研究证据",
     "scoreComponents": {
@@ -187,6 +189,7 @@
       "智能时空计算"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A+",
     "evidenceScore": 82,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -283,6 +286,7 @@
       "方法及软硬一体系统研制"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A+",
     "evidenceScore": 82,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -392,6 +396,7 @@
       "Randomness."
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A",
     "evidenceScore": 74,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -478,6 +483,7 @@
       "具生智能"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A",
     "evidenceScore": 74,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -570,6 +576,7 @@
       "无线系统安全"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A",
     "evidenceScore": 68,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -648,6 +655,7 @@
       "数据安全与隐私保护"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A",
     "evidenceScore": 68,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -737,6 +745,7 @@
       "脑科学"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A",
     "evidenceScore": 68,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -859,6 +868,7 @@
       "相关研究成果荣获中国通信学会科学技术奖一等奖"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A",
     "evidenceScore": 68,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -953,6 +963,7 @@
       "认知科学"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A",
     "evidenceScore": 67,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -1035,6 +1046,7 @@
       "机器学习"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A",
     "evidenceScore": 66,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -1117,6 +1129,7 @@
       "自动机理论"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A",
     "evidenceScore": 66,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -1212,6 +1225,7 @@
       "聚类算法等"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A",
     "evidenceScore": 66,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -1307,6 +1321,7 @@
       "多智能体算法"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A-",
     "evidenceScore": 63,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -1406,6 +1421,7 @@
       "医疗影像分析（基于眼底图像的眼病辅助诊断等）………"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A-",
     "evidenceScore": 62,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -1492,6 +1508,7 @@
       "大模型"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A-",
     "evidenceScore": 62,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -1578,6 +1595,7 @@
       "区块链取证"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A-",
     "evidenceScore": 62,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -1668,6 +1686,7 @@
       "人工智能算法应用"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A-",
     "evidenceScore": 62,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -1758,6 +1777,7 @@
       "信息安全等"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A-",
     "evidenceScore": 62,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -1848,6 +1868,7 @@
       "AIGC"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A-",
     "evidenceScore": 62,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -1942,6 +1963,7 @@
       "机器学习应用与安全"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A-",
     "evidenceScore": 62,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -2034,6 +2056,7 @@
       "AIGC和LLM"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A-",
     "evidenceScore": 62,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -2124,6 +2147,7 @@
       "数据要素"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A-",
     "evidenceScore": 60,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -2206,6 +2230,7 @@
       "物联网"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A-",
     "evidenceScore": 60,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -2283,6 +2308,7 @@
       "密码学与信息安全"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A-",
     "evidenceScore": 60,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -2365,6 +2391,7 @@
       "人工智能"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A-",
     "evidenceScore": 60,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -2453,6 +2480,7 @@
       "物联网安全"
     ],
     "evidenceGrade": "A",
+    "evidenceSubgrade": "A-",
     "evidenceScore": 60,
     "evidenceLabel": "较强研究证据",
     "scoreComponents": {
@@ -2544,6 +2572,7 @@
       "区块链"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B+",
     "evidenceScore": 62,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -2638,6 +2667,7 @@
       "人工智能"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B+",
     "evidenceScore": 61,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -2745,6 +2775,7 @@
       "人工智能安全等"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B+",
     "evidenceScore": 60,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -2825,6 +2856,7 @@
       "数据交换与共享"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B+",
     "evidenceScore": 59,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -2912,6 +2944,7 @@
       "无线通信与安全"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B+",
     "evidenceScore": 57,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -3002,6 +3035,7 @@
       "多媒体"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B+",
     "evidenceScore": 57,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -3092,6 +3126,7 @@
       "高维逆问题等相关的理论分析与相关应用研究"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B+",
     "evidenceScore": 57,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -3180,6 +3215,7 @@
       "数据挖掘与数据分析"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B+",
     "evidenceScore": 57,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -3272,6 +3308,7 @@
       "博弈论应用研究"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B+",
     "evidenceScore": 56,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -3366,6 +3403,7 @@
       "数据安全"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B+",
     "evidenceScore": 55,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -3455,6 +3493,7 @@
       "分布式计算"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 54,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -3531,6 +3570,7 @@
       "数据挖掘"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 54,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -3601,6 +3641,7 @@
       "o 机器学习"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 54,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -3674,6 +3715,7 @@
       "数据挖掘"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 54,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -3751,6 +3793,7 @@
       "区块链"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -3833,6 +3876,7 @@
       "复杂网络"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -3919,6 +3963,7 @@
       "机器智能与模式识别"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -4008,6 +4053,7 @@
       "人工智能"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -4092,6 +4138,7 @@
       "密码技术应用与分析"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -4180,6 +4227,7 @@
       "智能教育软件等"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -4262,6 +4310,7 @@
       "形式化验证"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -4354,6 +4403,7 @@
       "交互"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -4444,6 +4494,7 @@
       "人工智能"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -4534,6 +4585,7 @@
       "大数据智能安全"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -4612,6 +4664,7 @@
       "网络与软件安全"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -4696,6 +4749,7 @@
       "计算机操作系统等"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -4780,6 +4834,7 @@
       "神经网络"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -4864,6 +4919,7 @@
       "对抗攻击和后门防御等）"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -4952,6 +5008,7 @@
       "机器智能与模式识别"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -5034,6 +5091,7 @@
       "数据安全"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -5116,6 +5174,7 @@
       "布尔函数"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -5196,6 +5255,7 @@
       "基于知识的专家系统等"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -5283,6 +5343,7 @@
       "迁移学习）"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -5369,6 +5430,7 @@
       "集成学习"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 51,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -5467,6 +5529,7 @@
       "半监督学习等机器学习理论"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 49,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -5554,6 +5617,7 @@
       "计算机网络"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 49,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -5639,6 +5703,7 @@
       "智能无人系统设计"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 49,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -5726,6 +5791,7 @@
       "信息安全"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 49,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -5807,6 +5873,7 @@
       "运筹学"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 49,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -5886,6 +5953,7 @@
       "信息检索"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 47,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -5965,6 +6033,7 @@
       "网络安全"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 47,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -6045,6 +6114,7 @@
       "健康医疗大数据分析"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 47,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -6126,6 +6196,7 @@
       "数值代数"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 47,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -6207,6 +6278,7 @@
       "人工智能"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 47,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -6283,6 +6355,7 @@
       "推荐算法"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 46,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -6365,6 +6438,7 @@
       "大数据工业应用"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 46,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -6449,6 +6523,7 @@
       "联邦学习"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -6522,6 +6597,7 @@
       "计算理论"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -6602,6 +6678,7 @@
       "智慧工地"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -6677,6 +6754,7 @@
       "推荐系统"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -6751,6 +6829,7 @@
       "普适计算"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -6823,6 +6902,7 @@
       "区块链安全"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -6901,6 +6981,7 @@
       "模拟芯片电路及工艺设计等领域的应用研究"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -6997,6 +7078,7 @@
       "挖掘处理模型"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -7073,6 +7155,7 @@
       "隐私计算"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -7149,6 +7232,7 @@
       "数据科学"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -7225,6 +7309,7 @@
       "泛在智能物联"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -7300,6 +7385,7 @@
       "信息检索"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -7374,6 +7460,7 @@
       "大数据分析与挖掘"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -7448,6 +7535,7 @@
       "计算机网络"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -7526,6 +7614,7 @@
       "物联网安全"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -7600,6 +7689,7 @@
       "神经网络"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -7678,6 +7768,7 @@
       "智能教育软件"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B",
     "evidenceScore": 45,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -7750,6 +7841,7 @@
       "知识图谱和数字水印等"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 44,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -7832,6 +7924,7 @@
       "网络智能运维"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 44,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -7916,6 +8009,7 @@
       "图形图像"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 44,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -7998,6 +8092,7 @@
       "人工智能"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 44,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -8080,6 +8175,7 @@
       "计算机视觉"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 44,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -8163,6 +8259,7 @@
       "边缘计算"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 44,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -8252,6 +8349,7 @@
       "网络安全"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 43,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -8328,6 +8426,7 @@
       "人工智能"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 41,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -8408,6 +8507,7 @@
       "人工智能"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 41,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -8490,6 +8590,7 @@
       "人工智能"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 40,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -8566,6 +8667,7 @@
       "ROS"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 40,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -8649,6 +8751,7 @@
       "医工交叉"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 40,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -8723,6 +8826,7 @@
       "网络及系统安全"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 40,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -8800,6 +8904,7 @@
       "应用密码学"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 40,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -8880,6 +8985,7 @@
       "信息安全"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 40,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -8961,6 +9067,7 @@
       "数据安全"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 40,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -9042,6 +9149,7 @@
       "数据分析"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 40,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -9118,6 +9226,7 @@
       "4D感知"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 40,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -9192,6 +9301,7 @@
       "故障自诊断自修复"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 39,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -9271,6 +9381,7 @@
       "人工智能与安全计算"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 39,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -9350,6 +9461,7 @@
       "网络与数据安全等"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 39,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -9434,6 +9546,7 @@
       "自然语言处理"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 38,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -9506,6 +9619,7 @@
       "机器学习在空气动力的应用"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 38,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -9582,6 +9696,7 @@
       "区块链金融安全"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 38,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -9671,6 +9786,7 @@
       "计算系统与网络安全"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 38,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -9753,6 +9869,7 @@
       "医疗图像处理"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 38,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -9827,6 +9944,7 @@
       "人工智能"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 38,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -9903,6 +10021,7 @@
       "数据分析与网络安全"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 38,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -9977,6 +10096,7 @@
       "计算机系统结构与高性能计算"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 36,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -10053,6 +10173,7 @@
       "人工智能"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 36,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -10128,6 +10249,7 @@
       "时空数据挖掘"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 35,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -10208,6 +10330,7 @@
       "医学图像分析"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 35,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -10291,6 +10414,7 @@
       "并行处理及获取最优化技术"
     ],
     "evidenceGrade": "B",
+    "evidenceSubgrade": "B-",
     "evidenceScore": 35,
     "evidenceLabel": "多项研究证据",
     "scoreComponents": {
@@ -10362,6 +10486,7 @@
       "网络安全"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 34,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -10444,6 +10569,7 @@
       "时间序列分析"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -10517,6 +10643,7 @@
       "网络与数据安全"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -10601,6 +10728,7 @@
       "致力于将学术研究成果与行业应用深入融合"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -10672,6 +10800,7 @@
       "化工厂无人智能巡检"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -10747,6 +10876,7 @@
       "分布式系统"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -10819,6 +10949,7 @@
       "嵌入式系统安全等"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -10899,6 +11030,7 @@
       "人工智能"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -10977,6 +11109,7 @@
       "视频通讯"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11049,6 +11182,7 @@
       "社会网络"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11133,6 +11267,7 @@
       "图像和视频处理"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11209,6 +11344,7 @@
       "生成式AI安全伦理"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11282,6 +11418,7 @@
       "模型压缩"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11358,6 +11495,7 @@
       "多模态大模型"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11430,6 +11568,7 @@
       "医疗大数据"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11497,6 +11636,7 @@
       "软件定义网络"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11573,6 +11713,7 @@
       "无线网络"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11645,6 +11786,7 @@
       "信息安全"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11719,6 +11861,7 @@
       "移动智能终端生态安全"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11794,6 +11937,7 @@
       "深度学习"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 31,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11870,6 +12014,7 @@
       "图像处理"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 29,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11948,6 +12093,7 @@
       "大数据分析"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 29,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12023,6 +12169,7 @@
       "图像识别"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 29,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12096,6 +12243,7 @@
       "基于神经影像的脑科学研究"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 27,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12170,6 +12318,7 @@
       "隐私计算"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 26,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12244,6 +12393,7 @@
       "传感器技术"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 25,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12309,6 +12459,7 @@
       "嵌入式系统及应用"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 25,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12374,6 +12525,7 @@
       "分布式人工智能与多智能体系统"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 25,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12443,6 +12595,7 @@
       "数字孪生"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 25,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12509,6 +12662,7 @@
       "通信网络安全"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 23,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12575,6 +12729,7 @@
       "强化学习"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 23,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12641,6 +12796,7 @@
       "量子计算"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 22,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12708,6 +12864,7 @@
       "计算几何"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 18,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12778,6 +12935,7 @@
       "多模态检索和推荐"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 18,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12843,6 +13001,7 @@
       "数据挖掘"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 15,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12908,6 +13067,7 @@
       "网络安全"
     ],
     "evidenceGrade": "C",
+    "evidenceSubgrade": "C",
     "evidenceScore": 13,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12969,6 +13129,7 @@
       "浏览器引擎与WebApp技术"
     ],
     "evidenceGrade": "D",
+    "evidenceSubgrade": "D",
     "evidenceScore": 0,
     "evidenceLabel": "研究线索有限",
     "scoreComponents": {
@@ -13021,6 +13182,7 @@
       "图像视频"
     ],
     "evidenceGrade": "D",
+    "evidenceSubgrade": "D",
     "evidenceScore": 0,
     "evidenceLabel": "研究线索有限",
     "scoreComponents": {
@@ -13073,6 +13235,7 @@
       "程序设计语言"
     ],
     "evidenceGrade": "D",
+    "evidenceSubgrade": "D",
     "evidenceScore": 0,
     "evidenceLabel": "研究线索有限",
     "scoreComponents": {
@@ -13117,6 +13280,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13163,6 +13327,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13205,6 +13370,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13251,6 +13417,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13293,6 +13460,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13337,6 +13505,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13383,6 +13552,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13427,6 +13597,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13471,6 +13642,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13515,6 +13687,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13557,6 +13730,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13599,6 +13773,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13643,6 +13818,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13689,6 +13865,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13733,6 +13910,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13775,6 +13953,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13817,6 +13996,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13861,6 +14041,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13905,6 +14086,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13947,6 +14129,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13991,6 +14174,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -14033,6 +14217,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -14075,6 +14260,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -14119,6 +14305,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -14163,6 +14350,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -14207,6 +14395,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
+    "evidenceSubgrade": "E",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {

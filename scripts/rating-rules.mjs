@@ -1,7 +1,8 @@
 export const RUBRIC_VERSION = "official-evidence-v2";
 export const SOURCE_DATE = "2026-09-01";
 export const REVIEW_DATE = "2026-09-21";
-export const GRADES = ["S", "A", "B", "C", "D", "E"];
+import { subgradeFor } from "../grade-bands.js";
+export { GRADES } from "../grade-bands.js";
 export const POINTS = Object.freeze({ signal: [0, 6, 12, 22, 30], projects: [0, 4, 10, 17, 25], outputs: [0, 3, 8, 17, 25] });
 export const LABELS = { S: "高强度研究证据", A: "较强研究证据", B: "多项研究证据", C: "具体研究记录", D: "研究线索有限", E: "资料待补充" };
 
@@ -44,7 +45,7 @@ export function rateAssessment(assessment, { researchDirections = [] } = {}) {
   else if (score >= 15 || categories > 0) grade = "C";
   else if (outputs > 0 || researchDirections.some(s => typeof s === "string" && s.trim())) grade = "D";
   else grade = "E";
-  return { evidenceGrade: grade, evidenceScore: score, evidenceLabel: LABELS[grade], scoreComponents,
+  return { evidenceGrade: grade, evidenceSubgrade: subgradeFor(grade, score), evidenceScore: score, evidenceLabel: LABELS[grade], scoreComponents,
     ratingBasis: { signal, projects, outputs, latestResearchYear: year, categories, strongCategories }, rubricVersion: RUBRIC_VERSION };
 }
 

@@ -2,6 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { GRADES, rateAssessment, RUBRIC_VERSION, SOURCE_DATE, REVIEW_DATE, verifyQuotes } from "./rating-rules.mjs";
+import { SUBGRADES, SUBGRADE_VERSION } from "../grade-bands.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const outputDir = path.join(root, "data");
@@ -47,11 +48,13 @@ faculty.sort((a, b) => GRADES.indexOf(a.evidenceGrade) - GRADES.indexOf(b.eviden
 const statistics = {
   generatedAt: evidence.reviewedAt, sourceCollectedAt: SOURCE_DATE, teacherCount: faculty.length,
   gradeDistribution: Object.fromEntries(GRADES.map(g => [g, faculty.filter(f => f.evidenceGrade === g).length])),
+  subgradeDistribution: Object.fromEntries(SUBGRADES.map(g => [g, faculty.filter(f => f.evidenceSubgrade === g).length])),
+  subgradeVersion: SUBGRADE_VERSION,
   departmentDistribution: Object.fromEntries([...new Set(faculty.flatMap(f => f.departments.length ? f.departments : ["官网未列出"]))].map(d => [d, faculty.filter(f => f.departments.includes(d) || (d === "官网未列出" && !f.departments.length)).length])),
   reviewDistribution: { "AI 辅助逐条复核": faculty.length }, rubricVersion: RUBRIC_VERSION,
 };
 for (const [name, content] of Object.entries({ "faculty.public.json": faculty, "statistics.json": statistics, "data-version.json": {
-  version: `${REVIEW_DATE}-${RUBRIC_VERSION}`, generatedAt: evidence.reviewedAt, sourceDate: SOURCE_DATE, reviewedAt: REVIEW_DATE,
+  version: `${REVIEW_DATE}-${RUBRIC_VERSION}-${SUBGRADE_VERSION}`, generatedAt: evidence.reviewedAt, sourceDate: SOURCE_DATE, reviewedAt: REVIEW_DATE, subgradeVersion: SUBGRADE_VERSION,
   source: "电子科技大学计算机科学与工程学院公开教师目录及详情页", sourceUrl: "https://www.scse.uestc.edu.cn/js_sz.jsp?urltype=tree.TreeTempUrl&wbtreeid=1081",
   publicDataPolicy: "allowlist-v1", reviewMethod: "基于既有官网快照的 AI 辅助逐条复核；未重新抓取官网",
 } })) await fs.writeFile(path.join(outputDir, name), JSON.stringify(content, null, 2) + "\n", "utf8");

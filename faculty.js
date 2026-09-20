@@ -1,4 +1,5 @@
-export const GRADES = ["S", "A", "B", "C", "D", "E"];
+import { GRADES, matchesGrade, validGradeFilter } from "./grade-bands.js";
+export { GRADES } from "./grade-bands.js";
 export const INITIAL_VISIBLE = 6;
 export const LOAD_INCREMENT = 12;
 export const MISSING_DEPARTMENT = "官网未列出";
@@ -29,7 +30,7 @@ export function titleOptions(faculty) {
 export function normalizeFilters(faculty, filters = {}) {
   return {
     search: String(filters.search ?? ""),
-    grade: GRADES.includes(filters.grade) ? filters.grade : "",
+    grade: validGradeFilter(filters.grade) ? filters.grade : "",
     department: departmentOptions(faculty).includes(filters.department) ? filters.department : "",
     title: titleOptions(faculty).includes(filters.title) ? filters.title : "",
     sort: SORTS.includes(filters.sort) ? filters.sort : "score",
@@ -42,7 +43,7 @@ export function filteredFaculty(faculty, filters = {}) {
     const departments = departmentsOf(item);
     const haystack = normalize([item.name, item.title, ...departments, ...asArray(item.researchDirections), ...asArray(item.focusKeywords), ...asArray(item.hardSignals)].join(" "));
     return (!needle || haystack.includes(needle))
-      && (!filters.grade || item.evidenceGrade === filters.grade)
+      && matchesGrade(item, filters.grade)
       && (!filters.department || (filters.department === MISSING_DEPARTMENT ? !departments.length : departments.includes(filters.department)))
       && (!filters.title || item.title === filters.title);
   }).sort((a, b) => {
