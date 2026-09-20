@@ -1,5 +1,5 @@
-import { GRADES, matchesGrade, validGradeFilter } from "./grade-bands.js?v=subgrades-v1";
-export { GRADES } from "./grade-bands.js?v=subgrades-v1";
+import { GRADES, matchesGrade, validGradeFilter } from "./grade-bands.js?v=subgrades-v2";
+export { GRADES } from "./grade-bands.js?v=subgrades-v2";
 export const INITIAL_VISIBLE = 6;
 export const LOAD_INCREMENT = 12;
 export const MISSING_DEPARTMENT = "官网未列出";

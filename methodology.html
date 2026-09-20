@@ -4,7 +4,7 @@
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="计算机学院教师目录：官网研究证据分级规则 v2、逐项证据与数据范围。">
   <meta name="theme-color" content="#ffffff"><title>方法与数据 · 计算机学院教师目录</title>
-  <link rel="stylesheet" href="./styles.css?v=subgrades-v1">
+  <link rel="stylesheet" href="./styles.css?v=subgrades-v2">
 </head>
 <body>
   <a class="skip-link" href="#method-content">跳转到方法与数据</a>
@@ -36,14 +36,19 @@
       </tbody></table></div>
       <p>取满足全部条件的最高等级。分数高但门槛未满足时，等级不会随分数直接上升；因此 A 级分数可能高于 S 级，页面仍先按等级排序。等级和分数只在本规则内可比。</p>
     </article>
-    <article class="prose-card"><h2>A、B 级内再细分</h2>
-      <p>先满足大等级的证据门槛，再按固定分数线标注加减档；不按人数或百分位分配。</p>
-      <div class="rubric-table-wrap"><table class="rubric-table"><caption class="sr-only">A、B 级内的固定分数区间</caption><thead><tr><th>大等级</th><th>减档</th><th>中档</th><th>加档</th></tr></thead><tbody>
+    <article class="prose-card"><h2>每个等级内再细分</h2>
+      <p>S、A、B、C、D、E 均设加档、中档、减档。先满足大等级的证据门槛，再按固定分数线细分；不按人数或百分位分配。</p>
+      <div class="rubric-table-wrap"><table class="rubric-table"><caption class="sr-only">六个大等级内的固定分数区间</caption><thead><tr><th>大等级</th><th>减档</th><th>中档</th><th>加档</th></tr></thead><tbody>
+        <tr><td>S</td><td>S−：80–84</td><td>S：85–89</td><td>S+：90 及以上</td></tr>
         <tr><td>A</td><td>A−：60–64</td><td>A：65–74</td><td>A+：75 及以上</td></tr>
         <tr><td>B</td><td>B−：35–44</td><td>B：45–54</td><td>B+：55 及以上</td></tr>
+        <tr><td>C</td><td>C−：19 及以下</td><td>C：20–29</td><td>C+：30 及以上</td></tr>
+        <tr><td>D</td><td>D−：0–4</td><td>D：5–9</td><td>D+：10 及以上</td></tr>
+        <tr><td>E</td><td>E−：0–4</td><td>E：5–9</td><td>E+：10 及以上</td></tr>
       </tbody></table></div>
-      <p>默认顺序为 S → A+ → A → A− → B+ → B → B− → C → D → E，同档按分数降序。即使 B+ 分数高于 A−，也不能越过 A 的证据门槛；S、C、D、E 不再细分。</p>
-      <p>加减档仅区分同一大等级内的得分位置，不改变 v2 的基础评分、证据或 2026-09-01 快照。筛选“全部 A 级”仍包含 A+、A、A−，也可单独筛选各档。</p>
+      <p>默认先按 S → A → B → C → D → E 排列，各级内部按加档 → 中档 → 减档，同档按分数降序。即使 B+ 分数高于 A−，也不能越过 A 的证据门槛。</p>
+      <p>当前 D、E 的记录均为 0 分，分别落在 D−、E−；两级的证据条件仍不同，相同分数区间不合并等级。所有 18 档均可筛选，暂无记录的档位也保留。</p>
+      <p>细分沿用 v2 的基础评分、证据和 2026-09-01 快照。原有大等级筛选仍包含其全部加减档。</p>
     </article>
     <article class="prose-card"><h2>作品场所与贡献</h2>
       <p>代表成果采用项目公开的场所清单，以及能够明确核对的 CCF A 类目录记录。只有期刊名、顶会总量、影响因子或未说明贡献的论文列表，不能进入高档。论文列表里的本人英文全名、页面内可交叉核对的缩写或明确的通讯作者说明，均保留相应依据。</p>

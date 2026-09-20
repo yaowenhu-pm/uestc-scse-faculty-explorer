@@ -1,7 +1,14 @@
 export const GRADES = ["S", "A", "B", "C", "D", "E"];
-export const SUBGRADES = ["S", "A+", "A", "A-", "B+", "B", "B-", "C", "D", "E"];
-export const SUBGRADE_VERSION = "subgrades-v1";
-export const SUBGRADE_BANDS = { A: { middle: 65, plus: 75 }, B: { middle: 45, plus: 55 } };
+export const SUBGRADES = GRADES.flatMap(grade => [grade + "+", grade, grade + "-"]);
+export const SUBGRADE_VERSION = "subgrades-v2";
+export const SUBGRADE_BANDS = {
+  S: { middle: 85, plus: 90 },
+  A: { middle: 65, plus: 75 },
+  B: { middle: 45, plus: 55 },
+  C: { middle: 20, plus: 30 },
+  D: { middle: 5, plus: 10 },
+  E: { middle: 5, plus: 10 },
+};
 
 // Apply only after the evidence gate has determined the base grade.
 export function subgradeFor(grade, score) {

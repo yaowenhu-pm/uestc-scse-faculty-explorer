@@ -1,5 +1,5 @@
-import { asArray, departmentOptions, filteredFaculty, GRADES, INITIAL_VISIBLE, LOAD_INCREMENT, normalizeFilters, researchSummary, titleOptions } from "./faculty.js?v=subgrades-v1";
-import { displayGrade, GRADE_FILTER_OPTIONS, gradeFilterLabel, subgradeOf } from "./grade-bands.js?v=subgrades-v1";
+import { asArray, departmentOptions, filteredFaculty, GRADES, INITIAL_VISIBLE, LOAD_INCREMENT, normalizeFilters, researchSummary, titleOptions } from "./faculty.js?v=subgrades-v2";
+import { displayGrade, GRADE_FILTER_OPTIONS, gradeFilterLabel, subgradeOf } from "./grade-bands.js?v=subgrades-v2";
 
 const state = { faculty: [], search: "", grade: "", department: "", title: "", sort: "score", visible: INITIAL_VISIBLE };
 const $ = (selector) => document.querySelector(selector);

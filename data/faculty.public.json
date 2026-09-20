@@ -20,7 +20,7 @@
       "大数据管理"
     ],
     "evidenceGrade": "S",
-    "evidenceSubgrade": "S",
+    "evidenceSubgrade": "S-",
     "evidenceScore": 84,
     "evidenceLabel": "高强度研究证据",
     "scoreComponents": {
@@ -105,7 +105,7 @@
       "人工智能"
     ],
     "evidenceGrade": "S",
-    "evidenceSubgrade": "S",
+    "evidenceSubgrade": "S-",
     "evidenceScore": 83,
     "evidenceLabel": "高强度研究证据",
     "scoreComponents": {
@@ -10486,7 +10486,7 @@
       "网络安全"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 34,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -10569,7 +10569,7 @@
       "时间序列分析"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -10643,7 +10643,7 @@
       "网络与数据安全"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -10728,7 +10728,7 @@
       "致力于将学术研究成果与行业应用深入融合"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -10800,7 +10800,7 @@
       "化工厂无人智能巡检"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -10876,7 +10876,7 @@
       "分布式系统"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -10949,7 +10949,7 @@
       "嵌入式系统安全等"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11030,7 +11030,7 @@
       "人工智能"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11109,7 +11109,7 @@
       "视频通讯"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11182,7 +11182,7 @@
       "社会网络"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 33,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11267,7 +11267,7 @@
       "图像和视频处理"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11344,7 +11344,7 @@
       "生成式AI安全伦理"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11418,7 +11418,7 @@
       "模型压缩"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11495,7 +11495,7 @@
       "多模态大模型"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11568,7 +11568,7 @@
       "医疗大数据"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11636,7 +11636,7 @@
       "软件定义网络"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11713,7 +11713,7 @@
       "无线网络"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11786,7 +11786,7 @@
       "信息安全"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11861,7 +11861,7 @@
       "移动智能终端生态安全"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 32,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -11937,7 +11937,7 @@
       "深度学习"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C+",
     "evidenceScore": 31,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12864,7 +12864,7 @@
       "计算几何"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C-",
     "evidenceScore": 18,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -12935,7 +12935,7 @@
       "多模态检索和推荐"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C-",
     "evidenceScore": 18,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -13001,7 +13001,7 @@
       "数据挖掘"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C-",
     "evidenceScore": 15,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -13067,7 +13067,7 @@
       "网络安全"
     ],
     "evidenceGrade": "C",
-    "evidenceSubgrade": "C",
+    "evidenceSubgrade": "C-",
     "evidenceScore": 13,
     "evidenceLabel": "具体研究记录",
     "scoreComponents": {
@@ -13129,7 +13129,7 @@
       "浏览器引擎与WebApp技术"
     ],
     "evidenceGrade": "D",
-    "evidenceSubgrade": "D",
+    "evidenceSubgrade": "D-",
     "evidenceScore": 0,
     "evidenceLabel": "研究线索有限",
     "scoreComponents": {
@@ -13182,7 +13182,7 @@
       "图像视频"
     ],
     "evidenceGrade": "D",
-    "evidenceSubgrade": "D",
+    "evidenceSubgrade": "D-",
     "evidenceScore": 0,
     "evidenceLabel": "研究线索有限",
     "scoreComponents": {
@@ -13235,7 +13235,7 @@
       "程序设计语言"
     ],
     "evidenceGrade": "D",
-    "evidenceSubgrade": "D",
+    "evidenceSubgrade": "D-",
     "evidenceScore": 0,
     "evidenceLabel": "研究线索有限",
     "scoreComponents": {
@@ -13280,7 +13280,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13327,7 +13327,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13370,7 +13370,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13417,7 +13417,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13460,7 +13460,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13505,7 +13505,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13552,7 +13552,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13597,7 +13597,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13642,7 +13642,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13687,7 +13687,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13730,7 +13730,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13773,7 +13773,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13818,7 +13818,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13865,7 +13865,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13910,7 +13910,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13953,7 +13953,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -13996,7 +13996,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -14041,7 +14041,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -14086,7 +14086,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -14129,7 +14129,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -14174,7 +14174,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -14217,7 +14217,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -14260,7 +14260,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -14305,7 +14305,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -14350,7 +14350,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {
@@ -14395,7 +14395,7 @@
     "researchDirections": [],
     "focusKeywords": [],
     "evidenceGrade": "E",
-    "evidenceSubgrade": "E",
+    "evidenceSubgrade": "E-",
     "evidenceScore": 0,
     "evidenceLabel": "资料待补充",
     "scoreComponents": {

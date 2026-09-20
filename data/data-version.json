@@ -1,9 +1,9 @@
 {
-  "version": "2026-09-21-official-evidence-v2-subgrades-v1",
+  "version": "2026-09-21-official-evidence-v2-subgrades-v2",
   "generatedAt": "2026-09-21",
   "sourceDate": "2026-09-01",
   "reviewedAt": "2026-09-21",
-  "subgradeVersion": "subgrades-v1",
+  "subgradeVersion": "subgrades-v2",
   "source": "电子科技大学计算机科学与工程学院公开教师目录及详情页",
   "sourceUrl": "https://www.scse.uestc.edu.cn/js_sz.jsp?urltype=tree.TreeTempUrl&wbtreeid=1081",
   "publicDataPolicy": "allowlist-v1",
